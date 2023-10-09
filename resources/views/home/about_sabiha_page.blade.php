@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="sabiha-news-page-header-content">
-            <h1>Sabiha News</h1>
+            <h1>Sabiha Newsss</h1>
           </div>
         </div>
       </div>
