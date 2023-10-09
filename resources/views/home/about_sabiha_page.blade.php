@@ -22,7 +22,7 @@
           <div class="col-md-12">
             <div class="news-section-main-heading">
               <h1>Sabiha Abdualkader News</h1>
-              <h1>Sabiha Abdualkader News how are you</h1>
+              <h1>Sabiha Abdualkader News </h1>
             </div>
           </div>
         </div>
