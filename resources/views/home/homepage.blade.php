@@ -65,6 +65,7 @@
                   <span class="input-group-text" id="basic-addon2"
                     >Subscribe</span
                   >
+                  <span>Hello World</span> 
                 </div>
               
               </div>
