@@ -491,7 +491,7 @@
                     </div>
                     <h3>{{$free_courses->title}}</h3>
                     <div class="justify-content-between d-flex mt-2">
-                      <p ><img src="{{url('userpanel./images/tchr1.png')}}" alt="" class="me-2">Jordyn Dorwart</p>
+                      <p ><img src="imgs/{{$free_courses->image}}" alt="" class="me-2">Jordyn Dorwart</p>
                       <h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                         <path d="M9.60156 3.06934L11.5415 7.57405L16.4252 8.027L12.7404 11.264L13.8188 16.0487L9.60156 13.5445L5.38432 16.0487L6.46268 11.264L2.77792 8.027L7.66162 7.57405L9.60156 3.06934Z" fill="#FFBB54"/>
                       </svg>4.5</h6> </div>
@@ -508,7 +508,7 @@
                     <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M14.6668 8.00016C14.6668 11.6802 11.6802 14.6668 8.00016 14.6668C4.32016 14.6668 1.3335 11.6802 1.3335 8.00016C1.3335 4.32016 4.32016 1.3335 8.00016 1.3335C11.6802 1.3335 14.6668 4.32016 14.6668 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.4734 10.1202L8.40675 8.88684C8.04675 8.6735 7.75342 8.16017 7.75342 7.74017V5.00684" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>1h 30m</span>
+                    </svg>{{$free_courses->time}}</span>
                   </div>
                   </div>
                 </div>
