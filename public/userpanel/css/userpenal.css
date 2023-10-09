@@ -1,0 +1,1669 @@
+
+/* ==================GOOGLE FONT FAMILY URBANIST=========== */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==================GOOGLE FONT FAMILY WORK SANS=========== */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==================GOOGLE FONT FAMILY ROBOTO=========== */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  /* ==================MONORO GOOGLE FONT=================== */
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* ==================ADMIN COURSE PAGE STYLING START HERE================= */
+.body{
+  font-style: normal;
+font-family: Plus Jakarta Sans !important;
+  background-color:#F9F9FB
+
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin-bottom: 0px;
+}
+/* =====================USER PROFILE SECTION STYLING START HERE================== */
+.nav .active {
+  background: #DF5C62 !important;
+  border: none !important;
+  color: white !important;
+}
+.nav .nav-link:hover{
+  background: #DF5C62 !important;
+  border: none !important;
+  color: white !important;
+}
+
+
+.nav .nav-link {
+  border-radius: 10px !important;
+  background: var(--gray-gray-10, rgba(168, 167, 174, 0.10)) !important;
+  border: none !important;
+  color: black !important;
+  margin-right: 10px;
+  padding: 20px 20px !important;
+}
+
+
+
+
+.user-profile{
+  padding: 30px 30px;
+}
+.user-profile h2{
+  color: var(--neutral-black, #141522);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+padding-bottom: 30px;
+}
+.upload-content h3{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 600;
+line-height: 150%;
+}
+.upload-content p{
+  color: #84818A;
+font-size: 12px;
+font-weight: 500;
+line-height: 150%; 
+padding-top: 10px;
+}
+.avatar-upload {
+  position: relative;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+    right: 6px;
+    z-index: 1;
+    top: -42px;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+
+  border-radius: 100px;
+background: var(--neutral-white, #FFF);
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.avatar-upload .avatar-edit input + label:after {
+  content: "\f0ee";
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.avatar-upload .avatar-preview {
+  width: 192px;
+  height: 192px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #F6B21B;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.upload-content{
+  justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: 30px;
+}
+.input-group-append {
+  cursor: pointer;
+}
+.upload-input-feild{
+  padding-top: 19px;
+}
+.upload-input-feild .form-label {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 600;
+line-height: 150%;
+
+}
+.upload-input-feild .form-control, .form-select{
+  color: var(--neutral-black, #141522);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 16px 20px;
+    border-radius: 10px;
+border: 1px solid var(--neutral-soft-grey, #F5F5F7);
+background-color: white;
+}
+.upload-input-feild .bio-form-control{
+  color: var(--neutral-grey, #DFDFDF) !important;
+  border: 1px solid #DF5C62;
+}
+.upload-input-feild button{
+border-radius: 10px;
+background: #DF5C62;
+padding: 13px 24px;
+justify-content: center;
+align-items: center;
+color: #FFF;
+font-size: 14px;
+font-weight: 600;
+line-height: 150%;
+}
+.upload-input-feild button:hover{
+  background-color: white;
+  color: #DF5C62;
+  border: 1px solid #DF5C62;
+}
+/* =====================USER PROFILE SECTION STYLING END HERE================== */
+/* =====================USER PROFILE SECTION MY TEACHER CARD1 START HERE================== */
+.my-teacher-row2{
+  padding: 30px 30px !important;  
+  border-radius: 16px;
+background: var(--neutral-white, #FFF);
+box-shadow: 0px 40px 100px 0px rgba(0, 0, 0, 0.05);
+}
+.my-teacher-row h2{
+  color: var(--neutral-black, #141522);
+font-size: 24px;
+font-weight: 600;
+line-height: 150%; 
+padding-bottom: 10px;
+}
+.my-teacher-row2 h3{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 700;
+line-height: 150%;
+}
+.my-teacher-row2 p{
+  color: var(--neutral-dark-grey, #9C9CA4);
+font-size: 12px;
+font-weight: 500;
+line-height: 150%; 
+}
+.my-teacher-row2 h4{
+  color: var(--secondary-red, #DB5962);
+font-size: 14px;
+font-weight: 600;
+line-height: 150%; 
+}
+.my-teacher-row2 h6{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%;
+}
+.carousel-control-next, .carousel-control-prev {
+  width: 26%;
+  height: 22px;
+  color: #9C9CA4 !important;
+  position: relative;
+}
+.my-course-row{
+  padding-top: 41px;
+}
+.my-course-row h2{
+  color: var(--neutral-black, #141522);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%; 
+  padding-bottom: 10px;
+}
+.my-course-card{
+  border-radius: 15.306px;
+background: var(--neutral-white, #FFF);
+}
+.my-course-card-inner-body{
+  padding: 24px 24px;
+}
+.my-course-card-inner-content{
+  padding-top: 19px;
+}
+.my-course-card-inner-content h2{
+  color: var(--neutral-black, #141522);
+  font-size: 21.22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.my-course-card-inner-content p{
+  color: var(--neutral-dark-grey, #9C9CA4);
+font-size: 13.393px;
+font-weight: 500;
+line-height: 200%;
+}
+.my-course-card-inner-content h6{
+  color: var(--neutral-black, #141522);
+font-size: 13.393px;
+font-weight: 500;
+line-height: 200%;
+}
+ .my-course-card .progress-bar {
+  border-radius: 12.308px;
+background: var(--secondary-green, #25C78B);
+}
+.my-course-card .progress-bar-2 {
+background: #FFBB54;
+}
+.sidebar-card-2-dashboard-user{
+  border-radius: 16px;
+background: var(--neutral-white, #FFF);
+}
+.sidebar-card2-inner-card-userpenal{
+  padding: 30px 30px;
+}
+.sidebar-card2-inner-card-userpenal h2{
+  color: var(--neutral-dark-grey, #9C9CA4);
+font-size: 14px;
+font-weight: 600;
+line-height: 150%; 
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+}
+.sidebar-card2-inner-card-userpenal h3{
+  color: var(--neutral-black, #141522);
+font-size: 18px;
+font-weight: 700;
+line-height: 150%;
+padding-top: 20px;
+}
+.sidebar-card2-inner-card-userpenal span{
+  color: var(--neutral-black, #141522);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 200%;
+}
+.sidebar-card2-inner-card-userpenal h5{
+  color: var(--neutral-black, #141522);
+font-size: 16px;
+font-weight: 700;
+line-height: 150%;
+}
+.sidebar-card2-inner-card-userpenal h5 .task-done{
+  color: var(--neutral-dark-grey, #9C9CA4);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 200%;
+}
+.detail-sidebar .headings-number{
+  border-radius: 8px;
+    background: var(--neutral-soft-grey, #F5F5F7);
+    box-shadow: 0px 0px 15px 0px rgba(23, 23, 37, 0.04);
+    padding: 5px;
+}
+.detail-sidebar p{
+  color: var(--neutral-dark-grey, #9C9CA4);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%; 
+}
+.detail-sidebar p span{
+  color: var(--neutral-dark-grey, #9C9CA4);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.sidebar-card2-inner-card-userpenal .go-to-detail-btn{
+  padding: 13px 24px;
+  border-radius: 10px;
+background: #DF5C62;
+color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 150%;
+width: 100%;
+border: none;
+}
+.sidebar-card2-inner-card-userpenal .go-to-detail-btn:hover{
+  background-color: white;
+  border: 1px solid #DF5C62;
+  color: #DF5C62;
+}
+.calendar-container {
+  /* width: 300px; */
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px; 
+  overflow: hidden; 
+  background-color: white;
+}
+.calendar {
+  font-family: Arial, sans-serif;
+}
+.calendar-header {
+  text-align: center;
+  padding: 10px;
+  color: var(--neutral-black, #141522);
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+line-height: 150%; 
+}
+#prevMonth,
+#nextMonth {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: none;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  width: 14%;
+}
+th {
+  background-color: white;
+  font-weight: bold;
+}
+.current-day {
+  background-color:#DF5C62 ;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 15px; 
+  height: 15px;
+  line-height: 15px; 
+  display: inline-block; 
+}
+.github-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px; 
+  z-index: 999;
+}
+.github {
+  height: 30px;
+  width: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+.github:hover {
+  transform: scale(1.2);
+}
+.teacher-detail-page-row2{
+  padding: 30px 30px;
+  background: white;
+  border-radius: 8px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.teacher-detail-page-row2 h3{
+  color: var(--neutral-black, #141522);
+font-size: 22px;
+font-weight: 700;
+line-height: 150%;
+}
+.teacher-detail-page-row2 p{
+  color: var(--neutral-dark-grey, #9C9CA4);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%; 
+text-align: start;
+}
+.teacher-detail-page-row2 h6{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%;
+}
+.teacher-detail-page-row2 h4{
+  color: #EA4335;
+font-size: 14px;
+font-weight: 500;
+line-height: 200%; 
+text-align: right;
+}
+.teacher-detail-page-row2-img-div{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.teacher-detail-page-row2-img-div img{
+width: 100%;
+}
+ .teacher-detail-page-row2 .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+.teacher-detail-page-row2 .btn{
+  border-radius: 10px;
+    border: 1px solid var(--neutral-soft-grey, #F5F5F7);
+    color: var(--neutral-black, #141522);
+font-size: 12px;
+font-weight: 600;
+line-height: 150%;
+padding: 13px 24px;
+}
+  .search-box {
+    width: 92%;
+    position: relative;
+    display: flex;
+}
+.search-input{
+  width: 100%;
+  padding: 6px;
+  border-right: none;
+  outline: none;
+  font-size: 20px;
+  color: tomato;
+  background: none;
+  border-radius: 10px;
+border: 1px solid var(--neutral-soft-grey, #F5F5F7);
+
+color: var(--neutral-dark-grey, #9C9CA4);
+font-size: 12px;
+font-weight: 500;
+line-height: 150%;
+}
+.search-button{
+  text-align: center;
+  height: 47px;
+  width: 50px;
+  outline: none;
+  cursor: pointer;
+  border-left: none;
+  background: none;
+  font-size: 20px;
+  border-radius: 10px;
+border: 1px solid var(--neutral-soft-grey, #F5F5F7);
+}
+.fa-search{
+  font-size: 13px;
+    width: 18px;
+    height: 18px;
+}
+ #installment-search .search-section {
+  background: #FFFFFF;
+    border-radius: 5px;
+    width: 93%;
+    height: 43px;
+    border: 1px solid var(--neutral-soft-grey, #F5F5F7);
+    border-radius: 8px;
+    color: var(--neutral-dark-grey, #9C9CA4);
+}
+ #installment-search .search-section input {
+  width: 89%;
+  float: left;
+  border: none;
+  height: 100%;
+}
+ #installment-search .search-section input::placeholder {
+  color: var(--neutral-dark-grey, #9C9CA4);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+}
+ #installment-search .search-section input:focus {
+  box-shadow: none;
+}
+ #installment-search .search-section i {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding-top: 14px;
+}
+
+/* =====================USER PROFILE SECTION MY TEACHER CARD1 END HERE================== */
+/* =====================USER PROFILE SECTION ENROLL COURSE PAGE STYLING START  HERE================== */
+.video-parent-class {
+  margin: 0 auto;
+}
+.pause-play-img {
+          position: absolute;
+          z-index: 99;
+          left: 50%;
+          display: none;
+          opacity: 0.4;
+          width: 64px;
+      }
+
+      .video-parent-class:hover img.pause-play-img {
+          display: block;
+      }
+
+      .video-parent-class {
+          position: relative;
+      }
+
+
+      @keyframes fade-in-up {
+          0% {
+              opacity: 0;
+          }
+          100% {
+              transform: translateY(0);
+              opacity: 1;
+          }
+      }
+
+      .stuck {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          transform: translateY(100%);
+          width: 260px;
+          height: 145px;
+          animation: fade-in-up .25s ease forwards;
+          z-index: 999;
+      }
+
+p.scrolldown {
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid;
+  background: #ff7037;
+  position: fixed;
+  right: 75px;
+  color: #fff;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.enroll-course-page-row1 h2{
+  color: var(--Dark-500, #100F14);
+  font-family: Urbanist;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 12px 10px;
+}
+.enroll-course-page-row1 {
+  border-radius: 10px;
+background: var(--neutral-white, #FFF);
+}
+/* cart card start */
+.cart-card{
+  border-radius: 20px;
+  border: 1px solid var(--gray-gray-20, rgba(168, 167, 174, 0.20));
+  background: var(--White-500, #FFF);
+  box-shadow: 0px 55px 90px 0px rgba(0, 0, 0, 0.03), 0px 55px 70px 0px rgba(0, 0, 0, 0.03);
+}
+.cart-card .cart-cardbody{
+  padding: 20px;
+}
+.cart-card .cart-cardbody h3{
+  color: var(--Dark-500, #100F14);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  border-bottom:  1px solid  var(--gray-gray-20, rgba(168, 167, 174, 0.20));
+  padding-bottom: 13px;
+  margin-bottom: 0px !important;
+}
+.cart-card .cart-cardbody h2{
+  color: var(--Dark-500, #100F14);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-top: 16px;
+  margin-bottom: 0px !important;
+}
+.cart-card .cart-cardbody .input-section p{
+  color: var(--Dark-500, #100F14);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.cart-card .cart-cardbody .input-section .input-group input{
+  border-radius: 10px;
+  border: 1px solid #DF5C62;
+  padding: 16px;
+  box-shadow: none !important;
+}
+.cart-card .cart-cardbody .input-section .input-group button{
+  border: 1px solid #DF5C62 !important;
+  border-radius: 0px 10px 10px 0px;
+  background: #DF5C62;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 20px 30px;
+}
+.cart-card .cart-cardbody h4{
+  color: var(--Dark-500, #100F14);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  border-bottom:  1px solid  var(--gray-gray-20, rgba(168, 167, 174, 0.20));
+  padding-bottom: 13px;
+  margin-bottom: 0px !important; 
+}
+.cart-card .cart-cardbody .cart-card-btn button{
+  border-radius: 10px;
+  background: #DF5C62;
+  border: none !important;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  padding: 20px 0px;
+  width: 100%;
+}
+.table-btn a{
+  text-decoration: none;
+  color: #DF5C62;
+}
+.cart-card-btn button a{
+  text-decoration: none;
+  color: white;
+}
+.cart-card .cart-cardbody .cart-card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.cart-section h1{
+  color: var(--Dark-500, #100F14);
+font-family: Urbanist;
+font-size: 38.737px;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 13px;
+}
+.userpanel-review-your-order-content h2{
+  color: var(--Dark-500, #100F14);
+  font-family: Urbanist;
+  font-size: 22.169px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 19px;
+}
+.userpenal-revie-your-order-img{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.userpenal-revie-your-order-img img{
+width: 100%;
+}
+/* =====================USER PROFILE SECTION ENROLL COURSE PAGE STYLING END  HERE================== */
+/* ==============USER PENAL PAYMENT METHOD STYLING START HERE=============== */
+
+.road-map i{
+  background-color: #DF5C62;
+  padding: 20px;
+  border-radius: 16px;
+  color: white;
+margin-left: 30px;
+
+}
+.road-map .review-roadmap{
+  background-color: #A8A7AE1A;
+color: black;
+margin-left: 0px;
+}
+.road-map p{
+  color: #100F14;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 0px;
+padding-top: 10px;
+}
+.payment-method h3{
+  color: #100F14;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 30px;
+padding-top: 30px;
+}
+.main-form .debate-card{
+  color: #100F14;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 30px;
+padding-top: 30px;
+}
+.payment-method label{
+  color: #100F14;
+font-size: 12px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 20px;
+}
+.payment-method input{
+  color: #100F14;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 26px;
+}
+.add-card-button button{
+  color: white !important;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 17px 20px;
+  background-color: #DF5C62;
+  border: none;
+  width: 32%;
+  border-radius: 13px;
+}
+.add-card-button button:hover{
+ background:  #DF5C62;
+  color: white;
+}
+
+.add-card-button button a{
+  text-decoration: none;
+  color: white;
+}
+.add-card-button{
+  padding: 16px 0px;
+
+}
+.google-pay-radio .google-pay{
+  color: #100F14;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 30px;
+}
+.google-pay-radio{
+  border-bottom: 1px solid #A8A7AE33;
+  padding: 7px 0px;
+}
+
+/* model styling start here */
+.model-img{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.model-img img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #DF5C62;
+}
+.modal-body{
+  text-align: center;
+  padding: 34px;
+}
+.modal-body h2{
+  color: #100F14;
+font-size: 24px;
+font-family: Urbanist;
+font-weight: 700;
+margin-bottom: 0px;
+}
+.modal-body p{
+  color: #100F14;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 0px;
+}
+.modal-body button{
+  margin-top: 30px;
+  color: white;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  padding: 17px 68px;
+  border: none;
+  border-radius: 13px;
+  line-height: 26px;
+}
+.modal-body .view-order-button{
+  background-color: #DF5C62;;
+}
+.modal-body .back-to-home-button{
+  border: 1px solid #DF5C62;
+  color: #DF5C62;
+  background-color: white;
+  margin-top: 13px;
+}
+.modal-header {
+border-bottom: none !important;
+  /* border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color); */
+}
+.modal-body button a{
+  text-decoration: none;
+  color: white;
+}
+.modal-body button .back-to-home-button-a{
+  color: #DF5C62 !important;
+
+}
+.userpanel-review-your-order-content h5{
+  color: var(--Dark-500, #100F14);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-top: 15px;
+
+}
+.userpanel-review-your-order-content p{
+  color: var(--Dark-500, #100F14);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px; 
+  padding-top: 15px;
+
+}
+
+/* ==============USER PENAL PAYMENT METHOD STYLING END HERE=============== */
+/* ==============EXPLORE COURSES REVIEW PAGE STYLING START HERE=============== */
+.review-page-headings-userpenal{
+  padding-top: 27px;
+}
+.review-page-headings-userpenal h5{
+  color: var(--neutral-black, #141522);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.review-page-headings-userpenal p{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%;
+}
+.review-page-headings-userpenal h4{
+  color: var(--neutral-dark-grey, #9C9CA4);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%;
+}
+.psychology-overview .half-start{
+  color: #DFDFDF;
+}
+.div{
+  text-align: end;
+  padding-right: 49px;
+}
+.more-review-button{
+  padding-top: 30px;
+}
+.more-review-button button{
+  color: var(--neutral-black, #141522);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+  width: 100%;
+  border: 1px solid #F5F5F7;
+  padding: 13px;
+}
+
+.review-your-order-main-row{
+  padding: 30px 30px;
+}
+.psychology-main-heading h2{
+  color: var(--Dark-500, #100F14);
+  font-family: Urbanist;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 0px 0px !important;
+}
+.psychology-main-heading p{
+  margin-bottom: 0px;
+  padding-top: 8px;
+color: #A8A7AE;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 26px;
+}
+.overview-class{
+  padding-top: 30px;
+}
+.psychology-overview p{
+color: #A8A7AE;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 22px;
+ margin-bottom: 0px;
+}
+.psychology-overview .fa{
+    color: #ebba31;
+}
+.psychology-overview h6{
+color: #100F14;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 26px;
+ margin-bottom: 0px;
+}
+.psychology-share-option-btn  .heart{
+  background: #DF5C62;
+  color: white;
+  border-radius: 12px;
+}
+.psychology-share-option-btn button{
+color: #DF5C62;
+ font-size: 16px;
+ border: 1px solid #DF5C62;
+ padding: 15px;
+ border-radius: 8px;
+ margin-left: 17px;
+}
+.overview-link{
+  padding-top: 23px;
+
+}
+.overview-link a{
+  text-decoration: none;
+}
+.overview-link a h3{
+  color: var(--neutral-dark-grey, #9C9CA4);
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%; 
+}
+.overview-link  a .active{
+  color: #DF5C89;
+}
+ .overview-link .active::after {
+  content: '' !important;
+  display: block !important;
+  width: 80% !important;
+  height: 2px !important;
+  background-color:#DF5C89 !important;
+} 
+.course-overview{
+  padding-top: 40px;
+}
+.course-overview h2{
+  color: #100F14;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+word-wrap: break-word
+}
+.course-overview p{
+color: #100F14;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 26px;
+ word-wrap: break-word
+}
+.course-overview{
+  border-bottom: 1px solid #A8A7AE33;
+}
+.related-course-detail-page{
+  background: none !important;
+}
+.psychology-card{
+  border-radius: 20px;
+  border: 1px solid var(--gray-gray-20, rgba(168, 167, 174, 0.20));
+  box-shadow: 0px 55px 90px 0px rgba(0, 0, 0, 0.03), 0px 55px 70px 0px rgba(0, 0, 0, 0.03);
+  background: white;
+margin-top: -251px;
+}
+.card-content{
+  padding: 30px;
+}
+.card-img-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img-div img{
+  width: 100%;
+}
+.sale-price h4{
+  color: #100F14;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 0px;
+
+padding-top: 30px;
+}
+.sale-price p{
+  padding-top: 10px;
+  color: #A8A7AE;
+font-size: 18px;
+font-weight: 400;
+text-decoration: line-through;
+line-height: 26px;
+margin-bottom: 0px;
+}
+.sale-price span button{
+  background-color: #000;
+  color: white;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+word-wrap: break-word
+}
+.buy-button{
+  padding-top: 30px;
+}
+.buy-button button{
+  color: white;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+background-color: #DF5C62;
+width: 100%;
+padding: 15px;
+}
+.buy-button button a{
+  text-decoration: none;
+  color: white;
+}
+.buy-button button:hover{
+background:   #DF5C62;
+ 
+   color: white;
+}
+.video-link-card{
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #A8A7AE33;
+}
+.video-link-card h2{
+  color: #100F14;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+margin-bottom: 0px;
+}
+.video-link-card a{
+  text-decoration: none;
+}
+.video-link-card a p{
+  border-bottom: 1px solid #A8A7AE33;
+  color: #100F14;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 0px;
+  padding: 16px 0px 12px 0px;
+}
+.review-your-order-page-userpanel-cotent-div p, span{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%;
+}
+.related-course-heading-userpanel-review-page h2{
+  color: var(--neutral-black, #141522);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%; 
+}
+.review-your-order-page-userpanel-cotent-div h6{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%;
+}
+/* ==============EXPLORE COURSES REVIEW PAGE STYLING END HERE=============== */
+/* ==============EXPLORE COURSES ASSINGMENT PAGE STYLING START HERE=============== */
+.assingment-userpeanl-course-explore-contetn h3{
+  color: var(--neutral-black, #141522);
+font-size: 18px;
+font-weight: 600;
+line-height: 150%; 
+}
+.assingment-userpeanl-course-explore-contetn p{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%;
+}
+.assingment-userpeanl-course-explore-contetn .detail-btn-assingment{
+  padding: 13px 24px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    border: none;
+    border-radius: 10px;
+background: #DF5C62;
+
+}
+.assingment-userpeanl-course-explore-contetn h5{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%;
+}
+.upload-input-feild-detail .form-control{
+  color: var(--neutral-black, #141522);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--neutral-soft-grey, #F5F5F7);
+  background-color: white;
+}
+.collected-class-student{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+
+}
+/* ==============EXPLORE COURSES ASSINGMENT PAGE STYLING END HERE=============== */
+/* ==============EXPLORE COURSES ABOUT PAGE STYLING START HERE=============== */
+.about-description-userpenal h2{
+  color: var(--neutral-black, #141522);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.about-description-userpenal p{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 500;
+line-height: 200%;
+}
+.about-description-userpenal i{
+  color: #DB5962;
+}
+
+
+/*  */
+
+
+
+
+.dropdown-category{
+  padding: 20px 20px;
+}
+.dropdown-category h2{
+  color: var(--neutral-black, #141522);
+font-size: 14px;
+font-weight: 600;
+line-height: 150%;
+}
+.dropdown-category .btn-category{
+  padding: 9px 30px;
+  border-radius: 10px;
+  border: 1px solid var(--neutral-soft-grey, #F5F5F7);
+  background: var(--neutral-white, #FFF);
+  color: var(--neutral-black, #141522);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.dropdown-category .btn-category-2{
+background: #DF5C62;
+color: #fff;
+/* padding: 13px 44px !important; */
+width: 100%;
+justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.dropdown-category .btn-category:hover{
+  background-color: white;
+  color: #DF5C62;
+  border: 1px solid #DB5962;
+}
+.dropdown-category .btn-category:focus{
+  background: #DF5C62;
+  color: #fff;
+}
+.dropdown-category .btn-category-2:hover{
+  background-color: white;
+  color: #DF5C62;
+  border: 1px solid #DB5962;
+  }
+  .dropdown-category .btn-category-2:focus{
+    background-color: white;
+    color: #DF5C62;
+    border: 1px solid #DB5962;
+    }
+
+
+
+
+
+
+/*  */
+/* ==============EXPLORE COURSES ABOUT PAGE STYLING END HERE=============== */
+
+
+
+/* ================MEDIA QUERIES START HERE=========== */
+@media only screen and (min-width: 1880px) and (max-width: 1920px){}
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+  .sidebar-card2-inner-card-userpenal {
+    padding: 15px 13px;
+}
+.sidebar-card2-inner-card-userpenal h3 {
+  font-size: 14px;
+}
+p, h6 {
+  font-size: 12px;
+}
+.sidebar-card2-inner-card-userpenal span {
+  font-size: 10px;
+}
+.teacher-detail-page-row2 h3 {
+  font-size: 13px;
+
+}
+.teacher-detail-page-row2 p{
+  font-size: 11px;
+}
+.teacher-detail-page-row2 h6{
+  font-size: 11px;
+}
+.teacher-detail-page-row2 h4 {
+  font-size: 11px;
+}
+.teacher-detail-page-row2 .btn {
+  padding: 11px 7px;
+}
+.enroll-course-page-row1 h2 {
+  font-size: 32px;
+}
+.cart-section h1 {
+  font-size: 30.737px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sidebar-card2-inner-card-userpenal {
+    padding: 30px 13px;
+}
+.sidebar-card2-inner-card-userpenal h3 {
+  font-size: 14px;
+}
+p, h6 {
+  font-size: 12px;
+}
+.sidebar-card2-inner-card-userpenal span {
+  font-size: 10px;
+}
+.teacher-detail-page-row2 h3 {
+  font-size: 12px;
+
+}
+.teacher-detail-page-row2 p{
+  font-size: 11px;
+}
+.teacher-detail-page-row2 h6{
+  font-size: 11px;
+}
+.teacher-detail-page-row2 h4 {
+  font-size: 11px;
+}
+.teacher-detail-page-row2 .btn {
+  padding: 11px 7px;
+}
+.enroll-course-page-row1 h2 {
+  font-size: 32px;
+}
+.cart-section h1 {
+  font-size: 32.737px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+  .upload-input-feild {
+    padding-top: 13px;
+}
+.upload-input-feild .form-control, .form-select {
+  padding: 11px 10px;
+}
+.upload-input-feild .form-label {
+  padding-bottom: 2px;
+}
+.user-profile h2 {
+  padding-bottom: 21px;
+}
+.avatar-upload .avatar-edit {
+  right: 3px;
+  top: -29px;
+}
+.header_iner .header_right .header_notification_warp li {
+  padding: 11px;
+}
+.profile_info p {
+  font-size: 30px;
+  padding: 1px 16px;
+}
+.header_iner h2{
+  font-size: 23px;
+}
+.my-teacher-row2 {
+  padding: 15px 15px !important;
+}
+.aliza-heading p{
+  font-size: 9px;
+}
+.my-teacher-row h2 {
+  font-size: 19px;
+}
+.my-course-row h2 {
+  font-size: 19px;
+}
+.my-course-row {
+  padding-top: 25px;
+}
+.my-course-card-inner-content h2 {
+  font-size: 18.22px;
+}
+.sidebar-card2-inner-card-userpenal h3 {
+  font-size: 17px;
+  padding-top: 13px;
+}
+.sidebar-card2-inner-card-userpenal {
+  padding: 15px 15px;
+}
+.teacher-detail-page-row2 {
+  padding: 24px 7px;
+}
+.teacher-detail-page-row2 h3 {
+  font-size: 9px;
+}
+.teacher-detail-page-row2 h6 {
+  font-size: 10px;
+}
+.teacher-detail-page-row2 h4 {
+  font-size: 11px;
+
+}
+.teacher-detail-page-row2 p {
+  font-size: 9px;
+}
+.teacher-detail-page-row2 .btn {
+  font-size: 10px;
+  padding: 10px 0px;
+  width: 100%;
+}
+.enroll-course-page-row1 h2 {
+  font-size: 20px;
+}
+.cart-section h1 {
+  font-size: 23.737px;
+}
+.userpanel-review-your-order-content h2 {
+  font-size: 20.169px;
+  padding-top: 11px;
+}
+.cart-card .cart-cardbody .input-section .input-group button {
+  font-size: 14px;
+  padding: 13px 24px;
+}
+.cart-card .cart-cardbody .cart-card-btn button {
+  padding: 14px 0px;
+}
+.add-card-button button {
+  font-size: 14px;
+  width: 100%;
+  padding: 12px 12px;
+
+}
+.main-form .debate-card {
+  font-size: 17px;
+  padding-top: 10px;
+}
+.modal-body h2 {
+  font-size: 17px;
+}
+.modal-body p {
+  font-size: 13px;
+}
+.modal-body button {
+  margin-top: 22px;
+  font-size: 10px;
+  padding: 14px 40px;
+}
+.userpanel-review-your-order-content p {
+  font-size: 15px;
+  padding-top: 0px;
+}
+.userpanel-review-your-order-content p {
+  font-size: 13px;
+  padding-top: 2px;
+}
+
+.review-your-order-main-row {
+padding: 20px 14px;
+}
+.review-your-order-page-userpanel-cotent-div p, span {
+font-size: 10px;
+}
+.div {
+text-align: end;
+padding-right: 0px;
+}
+.review-page-headings-userpenal p {
+font-size: 12px;
+line-height: 182%;
+}
+.related-course-heading-userpanel-review-page h2 {
+font-size: 24px;
+}
+.collected-class-student {
+  justify-content: start !important;
+
+}
+}
+@media only screen and (max-width: 320px) {
+  .dropdown-category .btn-category {
+    padding: 9px 26px;
+    font-size: 10px;
+    width: 86%;
+  }
+  .dropdown-category .btn-category-2 {
+    padding: 13px 44px !important;
+    width: 89%;
+  }
+
+  .upload-input-feild {
+    padding-top: 13px;
+}
+.upload-input-feild .form-control, .form-select {
+  padding: 11px 10px;
+}
+.upload-input-feild .form-label {
+  padding-bottom: 2px;
+}
+.user-profile h2 {
+  padding-bottom: 21px;
+}
+.avatar-upload .avatar-edit {
+  right: 3px;
+  top: -29px;
+}
+.header_iner .header_right .header_notification_warp li {
+  padding: 11px;
+}
+.profile_info p {
+  font-size: 30px;
+  padding: 1px 16px;
+}
+.header_iner h2{
+  font-size: 21px;
+}
+.my-teacher-row2 {
+  padding: 15px 15px !important;
+}
+.aliza-heading p{
+  font-size: 9px;
+}
+.my-teacher-row h2 {
+  font-size: 19px;
+}
+.my-course-row h2 {
+  font-size: 19px;
+}
+.my-course-row {
+  padding-top: 25px;
+}
+.my-course-card-inner-content h2 {
+  font-size: 18.22px;
+}
+.sidebar-card2-inner-card-userpenal h3 {
+  font-size: 17px;
+  padding-top: 13px;
+}
+.sidebar-card2-inner-card-userpenal {
+  padding: 15px 15px;
+}
+.teacher-detail-page-row2 {
+  padding: 24px 7px;
+}
+.teacher-detail-page-row2 h3 {
+  font-size: 9px;
+}
+.teacher-detail-page-row2 h6 {
+  font-size: 10px;
+}
+.teacher-detail-page-row2 h4 {
+  font-size: 11px;
+
+}
+.teacher-detail-page-row2 p {
+  font-size: 9px;
+}
+#installment-search .search-section {
+  width: 100%;
+}
+.teacher-detail-page-row2 .btn {
+  font-size: 10px;
+  padding: 10px 0px;
+  width: 100%;
+}
+.enroll-course-page-row1 h2 {
+  font-size: 20px;
+}
+.cart-section h1 {
+  font-size: 23.737px;
+}
+.userpanel-review-your-order-content h2 {
+  font-size: 20.169px;
+  padding-top: 11px;
+}
+.cart-card .cart-cardbody .input-section .input-group button {
+  font-size: 14px;
+  padding: 13px 24px;
+}
+.cart-card .cart-cardbody .cart-card-btn button {
+  padding: 14px 0px;
+}
+.add-card-button button {
+  font-size: 14px;
+  width: 100%;
+  padding: 12px 12px;
+
+}
+.main-form .debate-card {
+  font-size: 17px;
+  padding-top: 10px;
+}
+.userpanel-review-your-order-content h5 {
+  font-size: 17px;
+  padding-top: 3px;
+}
+.modal-body h2 {
+  font-size: 17px;
+}
+.modal-body p {
+  font-size: 13px;
+}
+.modal-body button {
+  margin-top: 22px;
+  font-size: 10px;
+  padding: 14px 40px;
+}
+
+.userpanel-review-your-order-content p {
+    font-size: 13px;
+    padding-top: 2px;
+}
+
+.review-your-order-main-row {
+  padding: 20px 14px;
+}
+.review-your-order-page-userpanel-cotent-div p, span {
+  font-size: 8px;
+}
+.div {
+  text-align: end;
+  padding-right: 0px;
+}
+.review-page-headings-userpenal p {
+  font-size: 12px;
+  line-height: 182%;
+}
+.related-course-heading-userpanel-review-page h2 {
+  font-size: 24px;
+} 
+.assingment-userpeanl-course-explore-contetn p {
+  font-size: 12px;
+  line-height: 189%;
+}
+.collected-class-student {
+  justify-content: start !important;
+
+}
+.about-description-userpenal p {
+  font-size: 11px;;
+}
+}
+/* ================MEDIA QUERIES END HERE=========== */
+
+
+

@@ -1,0 +1,1484 @@
+
+/* ==================GOOGLE FONT FAMILY URBANIST=========== */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==================GOOGLE FONT FAMILY WORK SANS=========== */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==================GOOGLE FONT FAMILY ROBOTO=========== */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  /* ==================MONORO GOOGLE FONT=================== */
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* ==================ADMIN COURSE PAGE STYLING START HERE================= */
+.body{
+  font-style: normal;
+  font-family: Work Sans;
+  background-color:#F9F9FB
+
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin-bottom: 0px;
+}
+/********************CART TABLE START  **********************/
+.table thead{
+  border-radius: 16px 16px 0px 0px;
+background: var(--primary-primary-10, rgba(193, 183, 248, 0.10));
+
+}
+.table>:not(:last-child)>:last-child>* {
+  border-bottom-color: none !important;
+}
+.table tbody tr td{
+  vertical-align: middle;
+}
+.btn-row{
+  justify-content: right;
+}
+
+.table thead tr th{
+  color: rgba(63, 63, 68, 0.50);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: none !important;
+}
+
+.main-title h3{
+  color: #3F3F44;
+font-size: 16px;
+font-weight: 600;
+line-height: normal;
+}
+.box_header  select{
+  color: rgba(63, 63, 68, 0.70);
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+}
+.cart-div{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.cart-div img{
+  width: 100%;
+}
+.table span{
+  padding-left: 16px;
+  padding-top: 6px;
+}
+
+.table tbody tr td{
+   color: #3F3F44;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+  /* padding: 20px; */
+  padding: 17px;
+  border-bottom: none;
+  font-family: Work Sans;
+}
+.record-heading{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding-left: 16px;
+  align-items: center;
+}
+.record-heading h6{
+  color: #3F3F44;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.pagination {
+  float: right !important;
+}
+.table tbody tr td .span-colord{
+  border-radius: 8px;
+  background: rgba(204, 234, 187, 0.25);
+  color: #DF5C62;
+  padding: 10px;
+}
+.page-link {
+  color: #3F3F44;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border: none;
+}
+/* ==================SIDE BAAR STYLING START HERE========== */
+.card-bg{
+  border-radius: 20.743px;
+  background: #F7F7F7;
+}
+.card-inner-content{
+  padding: 27px 22px 11px 27px;
+}
+.yr-earning-card{
+   display: flex;
+    justify-content: center !important;
+    align-items: center  !important;
+    text-align: center !important;
+}
+.card-inner-content .card-inner-content-head5{
+  color: #3F3F44;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600 !important;
+line-height: normal;
+}
+
+.main-card-1 h5{
+  color: #3F3F44;
+font-size: 13.828px;
+font-weight: 600;
+line-height: normal;
+}
+.course-side-content p{
+  color: #3F3F44;
+  font-size: 10.371px;
+  font-weight: 300;
+  line-height: normal;
+}
+.course-side-content h5{
+  color: #3F3F44;
+font-size: 20.743px;
+font-weight: 300;
+line-height: normal;
+}
+.course-side-content h6{
+  color: #FEFEFE;
+font-family: Work Sans;
+font-size: 10.371px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.withdrawl-button{
+  border-radius: 6.914px;
+background: #DF5C62;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.withdrawl-button button{
+  padding: 10px 36px;
+  color: #FFF;
+font-size: 12.1px;
+font-weight: 600;
+line-height: normal;
+}
+.withdrawl-button button a{
+  text-decoration: none;
+  color: white;
+}
+.withdrawl-row{
+  border-radius: 0px 0px 20.743px 20.743px;
+background: #3F3F44;
+padding: 13px 22px 11px 27px;
+
+}
+/* ==================SIDE BAAR STYLING END HERE========== */
+/* ==================TO PERFORMANCE STYLING START HERE========== */
+.performance-row{
+  padding-top: 29px;
+
+}
+.performance-row span{
+  color: rgba(63, 63, 68, 0.30);
+  text-align: right;
+ 
+  
+}
+.performance-row h2{
+  color: #3F3F44;
+font-size: 13.828px;
+font-weight: 600;
+line-height: normal;
+font-family: Work Sans;
+}
+.performance-img-div{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.performance-img-div img{
+  width: 100%;
+}
+.performance-content h1{
+  color: #3F3F44;
+font-size: 10.371px;
+font-weight: 500;
+line-height: normal;
+font-family: Work Sans;
+    margin-bottom: 5px;
+
+}
+.performance-content p{
+  color: #3F3F44;
+font-size: 10.371px;
+font-weight: 300;
+line-height: normal;
+font-family: Work Sans;
+
+}
+.performance-main-row{
+  padding-top: 21px;
+  justify-content: space-between;
+}
+.performance-content{
+  padding-left: 13px;
+  padding-top: 6px;
+}
+
+/* ==================TO PERFORMANCE STYLING END HERE========== */
+/* html {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+} */
+
+/* ===============TOP LOCATION STUDENT SECTION STYLING START HERE=============== */
+.student-location{
+  padding-top: 39px;
+}
+.student-location h1{
+  color: #100F14;
+  font-size: 13.828px;
+  font-weight: 600;
+  line-height: normal;
+  font-family: Work Sans;
+}
+.hidden {
+  visibility: hidden;
+  width: 0;
+}
+
+.progress-bar {
+  background: #f1f6fa;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px #ccd6dd;
+  height: 10px;
+  overflow: hidden;
+  position: relative;
+  text-indent: 100%;
+  width: 300px;
+}
+.progress-bar--counter {
+  margin-left: 10px;
+  position: relative;
+  top: -1px;
+}
+.progress-bar--counter .hidden {
+  display: inline-block;
+}
+.progress-bar--wrap {
+  display: flex;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 10px 0;
+}
+.progress-bar--inner {
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  height: 10px;
+  left: 0;
+  min-height: 10px;
+  position: absolute;
+  top: 0;
+}
+.progress-bar--green {
+  color: #6fc14b;
+}
+.progress-bar--green .progress-bar--inner {
+  background-color: #6fc14b;
+}
+.progress-bar--blue {
+  color: #068eda;
+}
+.progress-bar--blue .progress-bar--inner {
+  background-color: #068eda;
+}
+.progress-bar--red {
+  color: #fb797e;
+}
+.progress-bar--red .progress-bar--inner {
+  background-color: #fb797e;
+}
+.progress-bar--yellow {
+  color: #f7a81d;
+}
+.progress-bar--yellow .progress-bar--inner {
+  background-color: #f7a81d;
+}
+.back-g{
+  border-radius: 6.914px;
+background: linear-gradient(270deg, #DF5C62 0%, rgba(255, 255, 255, 0.00) 100%);
+width: 79%;
+}
+.img-div{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.img-div img{
+  width: 100%;
+}
+/* ===============TOP LOCATION STUDENT SECTION STYLING START HERE=============== */
+/* ==================ADMIN COURSE PAGE STYLING END HERE================= */
+/* ==================ADMIN FINANCE PAGE STYLING START HERE================= */
+
+.finance-card1 h4{
+  color: #3F3F44;
+    font-size: 13.119px;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 16px;
+    font-family: Work Sans;
+}
+.finance-card-weekly{
+  padding: 25px 22px 22px 22px;
+  border-radius: 14.993px;
+/* background: #c5aeae; */
+
+background: #FFF;
+
+}
+.finance-card-weekly-content{
+  padding-top: 22px;
+}
+.finance-card-weekly h3{
+  color: #3F3F44;
+font-size: 14.993px;
+font-weight: 600;
+line-height: normal;
+font-family: Work Sans;
+}
+.finance-card-weekly h2{
+  color: #3F3F44;
+font-size: 11.245px;
+font-weight: 400;
+line-height: normal;
+}
+.finance-card-weekly-content span{
+  border-radius: 7.496px;
+  background: #F2FAEE;
+  color: #DF5C62;
+  display: flex;
+  padding: 12px 6px;
+  text-align: center;
+  font-size: 11.245px;
+  font-weight: 600;
+  line-height: normal;
+
+}
+.finance-main-row{
+  padding-top: 26px;
+  justify-content: space-between;
+}
+.finance-main-row h1{
+  color: #3F3F44;
+  font-size: 12.245px;
+  font-weight: 500;
+  line-height: 14.993px;
+  font-family: Work Sans;
+
+}
+.finance-main-row span{
+  padding: 4px 7px;
+  color: #DF5C62;
+  font-size: 11.245px;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 7.496px;
+  background: rgba(223, 92, 98, 0.25);
+}
+.finance-earning-history h2{
+  color: #3F3F44;
+  font-size: 14.993px;
+  font-weight: 600;
+  line-height: normal;
+
+  font-family: Work Sans;
+}
+/* .finance-card{
+  background-color: none !important;
+} */
+
+/* ==================ADMIN FINANCE PAGE STYLING END HERE================= */
+/* ==================ADMIN ACCOUNT PAGE STYLING START HERE================= */
+.social-account-row h3{
+  color: #3F3F44;
+font-size: 16px;
+font-weight: 600;
+line-height: normal;
+}
+.account-facebook-div {
+  border-radius: 8px;
+background: #FFF;
+justify-content: space-between;
+padding: 16px 16px;
+}
+.account-facebook-div p{
+  color: rgba(63, 63, 68, 0.40);
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+}
+.account-facebook-div button{
+  border-radius: 8px;
+background: #DF5C62;
+color: #FFF;
+text-align: center;
+font-size: 12px;
+font-weight: 600;
+line-height: normal;
+}
+.account-facebook-div button a{
+  color: white;
+}
+.account-facebook-div button:hover{
+  border: 1px solid #DF5C62;
+  background-color: white;
+  color: #DF5C62;
+}
+.setting-row-account{
+  /* margin-top: 30px; */
+  
+}
+.setting-row-account h3{
+  color: #3F3F44;
+font-size: 16px;
+font-weight: 600;
+line-height: normal;
+}
+.setting-row-account .span-box span{
+  border-radius: 8px;
+  background: #F5F9F2;
+  padding: 12px 12px;
+}
+.span-box{
+  justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.setting-row-account h2{
+  color: #3F3F44;
+font-size: 12px;
+font-weight: 500;
+line-height: normal;
+}
+.setting-row-account p{
+  color: rgba(63, 63, 68, 0.40);
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+align-items: center;
+ padding-left: 12px;
+}
+.setting-row-inner-content{
+  text-align: center;
+  padding-top: 6px;
+}
+.general{
+  padding: 16px 38px 29px 38px;
+}
+.general-row h2{
+  color: #3F3F44;
+font-size: 16px;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 24px;
+
+}
+.account-page-img{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.account-page-img img{
+  width: 100%;
+}
+.form-label {
+  /* color: #3F3F44; */
+  color: var(--neutral-black, #141522) !important;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+}
+.form-control, .form-select{
+  color: rgba(63, 63, 68, 0.30);
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+padding: 13px 0px 13px 16px;
+border:  1px solid #F7F7F7 !important;
+background-color:#F7F7F7  ;
+}
+
+.setting-dashboard-form form .form-select,.form-control{
+  background-color: white !important;
+  color:black !important;
+}
+
+.setting-radio-check{
+  border-radius: 10px;
+  /* border: 1px solid #DF5C62; */
+
+  border: 1px solid var(--neutral-soft-grey, #F5F5F7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0px 13px 16px;
+    width: 48% !important;
+    margin-right: 10px;
+    margin-top: 0px !important;
+}
+.setting-radio-check:hover{
+  border-radius: 10px;
+
+  /* border: 1px solid var(--neutral-soft-grey, #F5F5F7); */
+  border: 1px solid #DF5C62;
+
+
+}
+
+
+.setting-radio-check .form-check-input:checked {
+  background-color: #DF5C62 !important;
+  border-color: #DF5C62 !important;
+}
+.setting-radio-check label{
+  font-weight: 600;
+}
+
+.other-information h2{
+  color: #3F3F44;
+font-size: 16px;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 12px;
+}
+.other-information{
+  margin-top: 40px;
+}
+.about-information{
+  margin-top: 24px;
+}
+.about-information h2{
+  color: #3F3F44;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 8px;
+}
+.textarea .form-control{
+  color: rgba(63, 63, 68, 0.30);
+font-size: 12px;
+font-weight: 400;
+line-height: 18px; /* 150% */
+/* background-color: #F7F7F7; */
+}
+/* ==================ADMIN ACCOUNT PAGE STYLING END HERE================= */
+/* ==================ADMIN DASHBOARD SETTING PAGE START HERE================= */
+.setting-page{
+  padding: 30px 0px 30px 30px;
+}
+.setting-page a{
+  text-decoration: none;
+}
+.setting-page a h4{
+  color: var(--neutral-dark-grey, #9C9CA4);
+
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off; 
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.setting-page  a .active{
+  /* color: #DF5C89; */
+  color: var(--neutral-black, #141522);
+}
+ .setting-page .active::after {
+  content: '' !important;
+  display: block !important;
+  width: 90% !important;
+  height: 2px !important;
+  background-color:#DF5C89 !important;
+} 
+
+.setting-row-general{
+  padding: 0px 0px 30px 30px;
+}
+.setting-row-general button{
+  border-radius: 10px;
+background: #DF5C62;
+color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 21px */
+padding: 13px 24px;
+border: none;
+}
+.setting-row-general button:hover{
+  background-color: white;
+  border: 1px solid #DF5C62;
+  color: #DF5C62;
+}
+/* toggle button */
+.video-row-seting label{
+  color: var(--neutral-black, #141522);
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  padding-left: 20px;
+  text-align: center;
+  margin-top: 6px;
+}
+.video-row-seting .form-switch{
+    padding-top: 30px;
+}
+.form-switch .input-back{
+    background-position: left center !important;
+}
+ .video-row-seting .form-check-input{
+  border: 3px solid #ebe7f3;
+  background-color: #e6e6e6;
+  height: 28px;
+  width: 48px;
+}
+
+
+
+/* ==================ADMIN DASHBOARD SETTING PAGE END HERE================= */
+/* ==================ADMIN DASHBOARD NOTIFICATION PAGE STYLING START  HERE================= */
+.notification-row{
+  padding: 26px 48px 58px 28px;
+}
+.notification-row h3{
+  color: #3F3F44;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.notification-row p{
+  color: #3F3F44;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+font-weight: 500;
+padding-left: 16px;
+  line-height: normal;
+}
+.notification-row  span{
+  color: rgba(63, 63, 68, 0.40);
+text-align: right;
+font-family: Work Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.notification-content{
+  padding-top: 42px;
+}
+ .notification-row .badge{
+  font-size: 8px;
+  background: #CCEABB
+}
+.notification-row .badge2{
+  background: #FDCB9E;
+}
+
+
+/* ==================ADMIN DASHBOARD NOTIFICATION PAGE STYLING END  HERE================= */
+
+/* ==================ADMIN DASHBOARD COURSE PAGE STYLING START  HERE================= */
+.general-row .form-control, .course-content .form-control{
+  background-color: #F7F7F7 !important;
+  border-radius: 8px;
+}
+
+.other-information form .form-control{
+  background-color: #F7F7F7 !important;
+
+}
+.about-information textarea{
+  background-color: #F7F7F7 !important;
+
+}
+.form-control{
+border:  1px solid #F7F7F7 !important;
+}
+.course-content{
+  border-radius: 8px;
+  /* background: #f3f3f3; */
+  background-color: #FFF !important;
+  /* filter: blur(28px); */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 14px 14px;
+  box-shadow: 0px 50px 82px 0px rgba(0.02,0,0,0.02);
+}
+.upload-button  button{
+  color: #DF5C62;
+text-align: center;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 12px 21px 12px 16px;
+border-radius: 8px;
+background: #FCF5EE;
+border: none;
+}
+.add-chapter-button a button{
+  border-radius: 8px;
+background: #DF5C62;
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 9px 24px 9px 24px;
+border: none;
+}
+.publish-course-button a button {
+  border-radius: 8px;
+  background: #DF5C62;
+  color: #FFF;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 9px 24px 9px 24px;
+  border: none;
+}
+.add-chapter-button a button:hover{
+  background-color: white;
+  border: 1px solid #DF5C62;
+  color: #DF5C62;
+}
+
+/* img upload */
+.br-upload input {
+  display: none;
+}
+.form-image-upload{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+  border-radius: none !important;
+  border: none !important;
+  background: none !important;
+  padding: 0px !important;
+}
+.br-upload .upload-button {
+  --button-radius: 100em;
+  --button-xsmall: 24px;
+  --button-small: 32px;
+  --button-medium: 40px;
+  --button-large: 48px;
+  --button-size: var(--button-medium);
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: var(--button-radius);
+  color: var(--interactive);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: var(--font-size-scale-up-01);
+  font-weight: var(--font-weight-semi-bold);
+  height: var(--button-size);
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 var(--spacing-scale-3x);
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  border: var(--surface-width-sm) dashed var(--interactive);
+  border-radius: var(--surface-rounder-sm);
+  display: block;
+  font-size: var(--font-size-scale-base);
+  font-style: italic;
+  font-weight: var(--font-weight-regular);
+  margin-top: var(--spacing-scale-half);
+  max-width: 550px;
+  min-height: var(--button-size);
+  padding-left: var(--spacing-scale-2x);
+  padding-right: var(--spacing-scale-2x);
+  text-align: left;
+  width: 100%;
+}
+.br-upload .upload-button .svg-inline--fa,
+.br-upload .upload-button .fa,
+.br-upload .upload-button .fab,
+.br-upload .upload-button .fad,
+.br-upload .upload-button .fal,
+.br-upload .upload-button .far,
+.br-upload .upload-button .fas {
+  margin-right: var(--spacing-scale-base);
+}
+.br-upload .upload-list {
+  max-width: 550px;
+  position: relative;
+}
+.br-upload .upload-list .content {
+  align-self: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 70%;
+}
+.br-upload .upload-list .support {
+  align-items: center;
+  display: flex;
+}
+.br-upload .br-tooltip {
+  max-width: 93%;
+}
+.br-upload .upload-button:disabled {
+  cursor: not-allowed;
+}
+.br-upload .upload-button:not(:disabled) {
+  --focus-offset: var(--spacing-scale-half);
+}
+.br-upload .upload-button:not(:disabled):focus {
+  outline: none;
+}
+.br-upload .upload-button:not(:disabled).focus-visible, .br-upload .upload-button:not(:disabled):focus-visible {
+  outline-color: var(--focus);
+  outline-offset: var(--focus-offset);
+  outline-style: var(--focus-style);
+  outline-width: var(--focus-width);
+}
+.br-upload .upload-button:not(:disabled):not(:disabled):hover {
+  background-image: linear-gradient(rgba(var(--interactive-rgb), var(--hover)), rgba(var(--interactive-rgb), var(--hover)));
+}
+.br-upload .upload-button:not(:disabled):not(:disabled):active {
+  background-image: linear-gradient(rgba(var(--interactive-rgb), var(--pressed)), rgba(var(--interactive-rgb), var(--pressed)));
+}
+.br-upload .upload-button.active, .br-upload .upload-button.is-active, .br-upload .upload-button[active] {
+  --hover: var(--hover-dark);
+  background-color: var(--active);
+  color: var(--color-dark);
+}
+.br-upload .upload-button.loading::after, .br-upload .upload-button[loading]::after, .br-upload .upload-button.is-loading::after {
+  border-color: var(--interactive) var(--interactive) transparent;
+  border-style: solid;
+}
+.br-upload .upload-button.loading.primary::after, .br-upload .upload-button.loading.danger::after, .br-upload .upload-button.loading.success::after, .br-upload .upload-button.loading.info::after, .br-upload .upload-button[loading].primary::after, .br-upload .upload-button[loading].danger::after, .br-upload .upload-button[loading].success::after, .br-upload .upload-button[loading].info::after, .br-upload .upload-button.is-loading.primary::after, .br-upload .upload-button.is-loading.danger::after, .br-upload .upload-button.is-loading.success::after, .br-upload .upload-button.is-loading.info::after {
+  border-color: var(--background) var(--background) transparent;
+}
+.br-upload.success .upload-button, .br-upload[data-success] .upload-button {
+  border-color: var(--success);
+}
+.br-upload.danger .upload-button, .br-upload[data-danger] .upload-button {
+  border-color: var(--danger);
+}
+.br-upload.warning .upload-button, .br-upload[data-warning] .upload-button {
+  border-color: var(--warning);
+}
+.br-upload.info .upload-button, .br-upload[data-info] .upload-button {
+  border-color: var(--info);
+}
+.br-upload.dragging .upload-button {
+  background-image: linear-gradient(rgba(var(--interactive-rgb), var(--hover)), rgba(var(--interactive-rgb), var(--hover)));
+}
+.br-upload{
+  border-radius: 8px;
+border: 1px dashed #DF5C62;
+background: rgba(245, 249, 242, 0.50);
+padding: 22px 0px 22px 24px;
+}
+.br-upload h3{
+  color: #DF5C62;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 15px 0px 0px 0px;
+}
+.br-upload p{
+  color: #DF5C62;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.pop-up-br-upload{
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.uploading-row-popup-btn{
+  border-radius: 8px;
+background: #F7F7F7;
+margin-top: 24px;
+padding: 16px 16px;
+}
+.uploading-row-popup-btn p{
+  color: #3F3F44;
+font-family: Work Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.uploading-row-popup-btn p span{
+  color: #3F3F44;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/*# sourceMappingURL=upload.css.map*/
+/* ==================ADMIN DASHBOARD COURSE PAGE STYLING END  HERE================= */
+/* ==================ADMIN DASHBOARD COURSE PAYOUT PAGE STYLING START   HERE================= */
+.main-payout-card{
+  padding: 30px 46px 70px 46px
+}
+.payout-widthdrawl-card{
+  padding: 32px 24px 249px 24px;
+box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+border-radius: 8px;
+background-color: white;
+}
+
+.payout-widthdrawl-card h4{
+  color: #3F3F44;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.payout-widthdrawl-card label{
+  color: #3F3F44;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 24px;
+}
+.payout-widthdrawl-card input{
+  border-radius: 8px;
+background-color: #F7F7F7 !important;
+}
+
+.payout-button button{
+  border-radius: 8px;
+  background: #DF5C62;
+  color: #FFF;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+ padding: 16px 0px;
+  border: none;
+  width: 100%;
+}
+.payout-button{
+  padding-top: 27px;
+}
+.payout-button button:hover{
+  background-color: #ffffff;
+  color: #DF5C62;
+  border: 1px solid #DF5C62;
+}
+.input-row{
+  border-radius: 8px;
+  border: 1px solid rgba(63, 63, 68, 0.08);
+  background-color: rgba(247, 247, 247, 0.40);
+}
+.payout-widthdrawl-card label{
+  padding-top: 15px;
+}
+
+/* 2nd row start here */
+.payout-bg-card-1{
+  background: url(../images/payout-bg-card1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+width: 302.183px;
+height: 194.09px;
+}
+/* recent payput row */
+.recent-payout{
+  padding-top: 40px;
+}
+.recent-payout h6{
+  color: #3F3F44;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 16px;
+}
+.recent-payout tbody tr td span{
+  border-radius: 8px;
+background: rgba(204, 234, 187, 0.25);
+padding: 7px 8px;
+}
+.recent-payout .table tr td{
+  color: rgba(63, 63, 68, 0.40);
+text-align: right;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+padding-top: 16px;
+}
+.recent-payout .table tr{
+  padding-top: 16px !important;
+}
+.in-review-row{
+  padding-top: 40px;
+}
+.in-review{
+  background: url(../images/in-review.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+/* min-height: 158px; */
+width: 147px;
+height: 168px;
+}
+.today-earning{
+  background: url(../images/today-earning.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+/* min-height: 158px; */
+width: 147px;
+height: 168px;
+
+}
+
+
+
+/* BEGIN: TABLE */
+
+.installment-table .hack1 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.installment-table .hack2 {
+  display: table-cell;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.installment-table .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.installment-table .table thead tr {
+  border-radius: 7.618px;
+background: #F7F7F7;
+}
+
+
+
+.installment-table .table thead tr th {
+  color: rgba(63, 63, 68, 0.50);
+  font-family: Work Sans;
+  font-size: 11.426px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.installment-table .table thead tr th:first-child,
+.installment-table .table thead tr th:nth-child(2),
+.installment-table .table thead tr th:nth-child(3),
+.installment-table .table thead tr th:nth-child(4),
+.installment-table .table thead tr th:nth-child(5),
+.installment-table .table thead tr th:nth-child(6)
+{
+  /* padding: 8px 20px 16px 22px */
+  padding: 9px 20px 16px 10px;
+}
+
+/* .installment-table .table thead tr th:nth-child(2) {
+  padding: 16px 40px 16px 0px;
+} */
+
+/* .installment-table .table thead tr th:nth-child(3), */
+/* .installment-table .table thead tr th:nth-child(4), */
+
+/* .installment-table .table thead tr th:nth-child(5), */
+/* .installment-table .table thead tr th:nth-child(6), */
+
+
+/* .installment-table .table thead tr th:nth-child(7)
+ {
+  padding: 16px 50px 16px 0px;
+} */
+
+/* 
+.installment-table .table thead tr th:nth-child(4) {
+  padding: 20px 0px 15px 21px;
+} */
+
+
+/* .installment-table .table thead tr th:nth-child(7) {
+  padding: 16px 55px 16px 0px;
+} */
+
+/* .installment-table .table thead tr th:nth-child(6) {
+  padding: 16px 57px 16px 40px;
+} */
+
+
+.installment-table .table thead tr th:last-child {
+  /* padding: 9px 100px 16px 70px; */
+  padding: 9px 0px 16px 6px;
+}
+
+
+
+.installment-table .table tbody tr td {
+  color: #3F3F44;
+  font-family: Work Sans;
+  font-size: 11.426px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15.235px;
+}
+
+
+
+/* .installment-table .table tbody tr td:first-child, */
+.installment-table .table tbody tr td:nth-child(2),
+.installment-table .table thead tr td:nth-child(3),
+.installment-table .table thead tr td:nth-child(4),
+.installment-table .table thead tr td:nth-child(5),
+.installment-table .table thead tr td:nth-child(6)
+{
+  padding: 13px 15px 6px 8px;
+
+}
+
+.installment-table .table tbody tr td:first-child {
+  padding: 13px 15px 6px 4px;
+}
+
+.installment-table .table tbody tr td:nth-child(3){
+  padding: 13px 15px 6px 4px !important;
+}
+
+.installment-table .table tbody tr td:last-child {
+  /* padding: 20px 0px 15px 82px; */
+  padding: 20px 0px 15px 30px;
+}
+
+
+
+/* END: TABLE */
+
+/* ==================ADMIN DASHBOARD COURSE PAYOUT PAGE STYLING END   HERE================= */
+/* ==================ADMIN DASHBOARD COURSE DETAIL PAGE STYLING START   HERE================= */
+
+.course-detail-admin-page {
+  background: #F7F7F7;
+  color: #3F3F44;
+  font-family: Work Sans;
+  font-size: 11.426px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15.235px;
+  /* border-color: #6c757d; */
+}
+/* ==================ADMIN DASHBOARD COURSE DETAIL PAGE STYLING START   HERE================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================MEDIA QUERIES START HERE=========== */
+@media only screen and (min-width: 1880px) and (max-width: 1920px){
+
+.in-review, .today-earning {
+
+  width: 162px;
+  height: 177px;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+  .in-review, .today-earning{
+    width: 101px;
+    height: 116px;
+  }
+  .main-payout-card {
+    padding: 30px 7px 62px 26px;
+}
+.payout-bg-card-1 {
+  width: 235.183px;
+  height: 157.09px;
+}
+.installment-table .table thead tr th:first-child, .installment-table .table thead tr th:nth-child(2), .installment-table .table thead tr th:nth-child(3), .installment-table .table thead tr th:nth-child(4), .installment-table .table thead tr th:nth-child(5), .installment-table .table thead tr th:nth-child(6) {
+  padding: 8px 0px 16px 8px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .in-review, .today-earning{
+    width: 100px;
+    height: 113px;
+
+  }
+  .payout-bg-card-1 {
+    width: 259.183px;
+    height: 170.09px;
+}
+  .recent-payout .table tr td {
+    font-size: 8px;
+    padding-top: 13px;
+}
+.in-review-row {
+    padding-top: 24px;
+}
+  .dashboard-card {
+    padding: 20px 8px;
+}
+.dashboard-card h3 {
+  font-size: 8px;
+}
+.dashboard-card h2 {
+  font-size: 19px;
+ 
+}
+.white_card .white_card_body {
+  padding: 5px 19px 24px 15px;
+}
+.installment-table .table thead tr th:first-child, .installment-table .table thead tr th:nth-child(2), .installment-table .table thead tr th:nth-child(3), .installment-table .table thead tr th:nth-child(4), .installment-table .table thead tr th:nth-child(5), .installment-table .table thead tr th:nth-child(6) {
+  padding: 8px 0px 16px 9px;
+}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+  .box_header select {
+    width: 48%;
+    margin-top: 7px;
+  }
+  .white_card .white_card_header {
+    padding: 19px 7px;
+}
+input[type=number], select {
+  padding: 8px;
+}
+.pagination {
+  justify-content: center;
+  padding-top: 20px;
+}
+.setting-page {
+  padding: 26px 0px 30px 1px;
+}
+.setting-page a h4 {
+  font-size: 11px;
+}
+.setting-row-general {
+  padding: 0px 19px 30px 21px;
+}
+.notification-row {
+  padding: 26px 9px 31px 15px;
+}
+.notification-row p {
+  font-size: 12px;
+  padding-left: 4px;
+}
+.notification-row span {
+  font-size: 12px;
+}
+.main-payout-card {
+  padding: 18px 36px 35px 36px;
+}
+.payout-bg-card-1 {
+  width: 291.183px;
+  height: 195.09px;
+}
+.in-review-row {
+  padding-top: 25px;
+}
+.in-review, .today-earning {
+  width: 119px;
+  height: 135px;
+}
+.recent-payout {
+  padding-top: 23px;
+
+}
+.recent-payout .table tr td {
+  font-size: 11px;
+}
+
+.payout-widthdrawl-card {
+    padding: 32px 24px 43px 24px;
+}
+/* .main-payout-card {
+  padding: 0px 0px 0px 0px;
+} */
+.main-title h3 {
+  font-size: 11px;
+}
+.dropdown-toggle {
+  white-space: wrap;
+}
+.course-detail-admin-page {
+  font-size: 9.426px;
+}
+.top-heading h2{
+  font-size: 19px;
+}
+}
+@media only screen and (max-width: 320px) {
+  .box_header select {
+    width: 48%;
+    margin-top: 7px;
+  }
+  .white_card .white_card_header {
+    padding: 19px 7px;
+}
+input[type=number], select {
+  padding: 8px;
+}
+.pagination {
+  justify-content: center;
+  padding-top: 20px;
+}
+.setting-page {
+  padding: 26px 0px 30px 1px;
+}
+.setting-page a h4 {
+  font-size: 11px;
+}
+.setting-row-general {
+  padding: 0px 19px 30px 21px;
+}
+.notification-row {
+  padding: 26px 9px 31px 15px;
+}
+.notification-row p {
+  font-size: 12px;
+  padding-left: 4px;
+}
+.notification-row span {
+  font-size: 12px;
+}
+.upload-button {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.uploading-row-popup-btn p span {
+
+  font-size: 9px;
+}
+.uploading-row-popup-btn p {
+  font-size: 9px;
+}
+.payout-widthdrawl-card {
+  padding: 22px 8px 26px 8px;
+}
+.main-payout-card {
+  padding: 18px 36px 35px 36px;
+}
+.payout-bg-card-1 {
+  width: 231.183px;
+  height: 170.09px;
+}
+.in-review-row {
+  padding-top: 25px;
+}
+.in-review, .today-earning {
+  width: 100px;
+  height: 117px;
+}
+.recent-payout .table tr td {
+  font-size: 11px;
+}
+.top-heading h2{
+  font-size: 19px;
+}
+.payout-table span{ 
+    padding-left: 0px;
+    padding-top: 6px;
+
+}
+.main-title h3 {
+  font-size: 11px;
+}
+.dropdown-toggle {
+  white-space: wrap;
+}
+.course-detail-admin-page {
+  font-size: 9.426px;
+}
+}
+/* ================MEDIA QUERIES END HERE=========== */
+
+
+
+
