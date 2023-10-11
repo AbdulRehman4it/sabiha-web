@@ -9,7 +9,7 @@
       <div class="row p-0">
         <div class="col-md-12">
           <div class="faq-page-header-content">
-            <h1>FAQs</h1>
+            <h1>{{ __('messages.FAQ_main_heading')}}</h1>
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@
                       class="collapse"
                       data-bs-target="#faq-list-1"
                     >
-                    Is it possible for me to use my local currency for payment? 
+                    {{ __('messages.FAQ_Q1_heading')}}
                       <i
                         class="fa fa-sm fa-angle-right icon-show"
                         aria-hidden="true"
@@ -41,10 +41,8 @@
                       data-bs-parent=".faq-list"
                     >
                       <p>
-                        Upon selecting the payment icon, the bank will deduct
-                        from your account in your local currency an amount that
-                        corresponds to the displayed dollar price on the
-                        website, using the prevailing exchange rate.
+                      {{ __('messages.FAQ_Q1_ans')}}
+
                       </p>
                     </div>
                   </li>     
@@ -55,7 +53,8 @@
                       data-bs-target="#faq-list-5"
                       class="collapsed"
                     >
-                    Is there an option to pay the fees in installments?
+                    {{ __('messages.FAQ_Q2_heading')}}
+
                       <i
                         class="fa fa-sm fa-angle-right icon-show"
                         aria-hidden="true"
@@ -68,9 +67,8 @@
                       data-bs-parent=".faq-list"
                     >
                       <p>
-                        Currently, certificates are not provided for the
-                        courses. We may consider introducing certificates for
-                        specific courses in the future.
+                      {{ __('messages.FAQ_Q2_ans')}}
+
                       </p>
                     </div>
                   </li>
@@ -81,7 +79,9 @@
                       data-bs-target="#faq-list-6"
                       class="collapsed"
                     >
-                    . Who provides the courses?<i
+                    {{ __('messages.FAQ_Q3_heading')}}
+
+                    <i
                         class="fa fa-sm fa-angle-right icon-show"
                         aria-hidden="true"
                       ></i
@@ -93,10 +93,8 @@
                       data-bs-parent=".faq-list"
                     >
                       <p>
-                        We offer free content across our social media platforms
-                        and website. By utilizing the information and exercises
-                        from our free resources, you'll have the opportunity to
-                        engage in work and access all of our training courses.
+                      {{ __('messages.FAQ_Q3_ans')}}
+
                       </p>
                     </div>
                   </li>
@@ -106,7 +104,9 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-list-7"
                       class="collapsed"
-                      >In which languages are the courses available?
+                      >
+                      {{ __('messages.FAQ_Q4_heading')}}
+
                       <i
                         class="fa fa-sm fa-angle-right icon-show"
                         aria-hidden="true"
@@ -119,8 +119,8 @@
                       data-bs-parent=".faq-list"
                     >
                       <p>
-                        If the provided information and exercises are diligently
-                        applied, progress will gradually become evident.
+                      {{ __('messages.FAQ_Q4_ans')}}
+
                       </p>
                     </div>
                   </li>
@@ -130,7 +130,9 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-list-8"
                       class="collapsed"
-                      >Will I get a certificate after completing the course?
+                      >
+                      {{ __('messages.FAQ_Q5_heading')}}
+
                       <i
                         class="fa fa-sm fa-angle-right icon-show"
                         aria-hidden="true"
@@ -143,11 +145,8 @@
                       data-bs-parent=".faq-list"
                     >
                       <p>
-                        In our coaching sessions, we explore your thoughts and
-                        feelings to find out what's causing the issue. We give
-                        you exercises, info, and courses to help you understand
-                        yourself better. When you use these tools, you can make
-                        your life better.
+                      {{ __('messages.FAQ_Q5_ans')}}
+
                       </p>
                     </div>
                   </li>
@@ -157,7 +156,9 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-list-9"
                       class="collapsed"
-                      >Are discounts available for individuals who are not employed?<i
+                      >                  
+                        {{ __('messages.FAQ_Q6_heading')}}
+                         <i
                         class="fa fa-sm fa-angle-right icon-show"
                         aria-hidden="true"
                       ></i
@@ -169,9 +170,8 @@
                       data-bs-parent=".faq-list"
                     >
                       <p>
-                        Subscribing grants one-person access to view the courses
-                        for personal use. If you want your friends to benefit,
-                        please suggest the course to them.
+                      {{ __('messages.FAQ_Q6_ans')}}
+
                       </p>
                     </div>
                   </li>
@@ -181,7 +181,8 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-list-10"
                       class="collapsed"
-                      >Why is BRIX Templates the best Webflow agency out there?
+                      >   {{ __('messages.FAQ_Q7_heading')}}
+
                       <i
                         class="fa fa-sm fa-angle-right icon-show"
                         aria-hidden="true"
@@ -194,9 +195,8 @@
                       data-bs-parent=".faq-list"
                     >
                       <p>
-                        You can view all paid and free courses on the website
-                        through your user dashboard at any time. Each paid
-                        course comes with a lifetime guarantee of access.
+                      {{ __('messages.FAQ_Q7_ans')}}
+
                       </p>
                     </div>
                   </li>

@@ -24,6 +24,9 @@ font-family: Plus Jakarta Sans !important;
 h1, h2, h3, h4, h5, h6, p{
   margin-bottom: 0px;
 }
+#form2{
+  display: none;
+}
 /* =====================USER PROFILE SECTION STYLING START HERE================== */
 .nav .active {
   background: #DF5C62 !important;
@@ -307,7 +310,7 @@ line-height: 150%;
   border-radius: 8px;
     background: var(--neutral-soft-grey, #F5F5F7);
     box-shadow: 0px 0px 15px 0px rgba(23, 23, 37, 0.04);
-    padding: 5px;
+    padding: 5px 10px;
 }
 .detail-sidebar p{
   color: var(--neutral-dark-grey, #9C9CA4);
@@ -379,6 +382,7 @@ td {
 th {
   background-color: white;
   font-weight: bold;
+  color: var(--neutral-dark-grey, #9C9CA4);
 }
 .current-day {
   background-color:#DF5C62 ;
@@ -463,7 +467,8 @@ width: 100%;
 font-size: 12px;
 font-weight: 600;
 line-height: 150%;
-padding: 13px 24px;
+/* padding: 13px 24px; */
+padding: 10px 20px;
 }
   .search-box {
     width: 92%;
@@ -533,6 +538,7 @@ border: 1px solid var(--neutral-soft-grey, #F5F5F7);
   align-items: center;
   display: flex;
   padding-top: 14px;
+  color: #141522;
 }
 
 /* =====================USER PROFILE SECTION MY TEACHER CARD1 END HERE================== */
@@ -1132,10 +1138,15 @@ margin-bottom: 0px;
   padding: 16px 0px 12px 0px;
 }
 .review-your-order-page-userpanel-cotent-div p, span{
-  color: var(--neutral-black, #141522);
-font-size: 14px;
-font-weight: 500;
+  /* color: var(--neutral-black, #141522); */
+/* font-size: 14px; */
+/* font-weight: 500; */
 line-height: 200%;
+color: #9C9CA4;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
 }
 .related-course-heading-userpanel-review-page h2{
   color: var(--neutral-black, #141522);

@@ -134,7 +134,9 @@
                   </li>
                 </div>
                 <div class="profile_info">
-                  <p>S</p>
+                  <!-- <p>S</p> -->
+                  <img src="{{url('userpanel./images/profile-pic.png')}}" class="img-fluid" alt="">
+
                   <div class="profile_info_iner">
                     <div class="profile_author_name">
                       <p>Neurologist</p>
@@ -200,7 +202,7 @@
 <div class="row mt-3">
   <div class="col-md-6 col-12" id="installment-search">
       <div class="search-section">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control me-2" type="search" placeholder="Search Course Name" aria-label="Search">
           <i class="fa-solid fa-magnifying-glass"></i>
       </div>
   </div>

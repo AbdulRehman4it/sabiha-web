@@ -12,7 +12,9 @@
       </div>
       <ul id="sidebar_menu">
         <li>
-          <a href="{{('user_dashboard_page')}}" aria-expanded="false">
+       
+        
+          <a href="{{url('user_dashboard_page')}}" aria-expanded="false">
             <div class="nav_icon_small">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +47,7 @@
           </a>
         </li>
         <li>
-          <a href="{{('user_profile_page')}}" aria-expanded="false">
+          <a href="{{url('user_profile_page')}}" aria-expanded="false">
             <div class="nav_icon_small">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +68,7 @@
           </a>
         </li>
         <li>
-          <a href="{{('user_penal_courses_page')}}" aria-expanded="false">
+          <a href="{{url('user_penal_courses_page')}}" aria-expanded="false">
             <div class="nav_icon_small">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +93,7 @@
           </a>
         </li>
         <li class="">
-          <a class="" href="{{('favorties_page_userpenal')}}" aria-expanded="false">
+          <a class="" href="{{url('favorties_page_userpenal')}}" aria-expanded="false">
             <div class="nav_icon_small">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853Z" fill="#9C9CA4"/>

@@ -19,11 +19,13 @@
         <div class="row">
           <div class="col-md-12">
             <div class="most-feature-sction-heading-2">
-              <h1>Most Feature Courses</h1>
-              <p>
+              <h1>{{ __('messages.fc_heading')}}</h1>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Imperdiet tempus felis vitae sit est quisque.
-              </p>
+              </p> -->
+              <p>{{ __('messages.fc_para')}}</p>
+
             </div>
           </div>
         </div>
@@ -109,10 +111,9 @@
       <div class="row">
         <div class="col-md-12">
           <div class="free-courses-main-heading-page">
-            <h1>Free Courses</h1>
+            <h1>{{ __('messages.free_course_heading')}}</h1>
             <p>
-              Explore free courses! Elevate your mind and liberate your
-              emotional burden.
+            {{ __('messages.free_course_para')}}
             </p>
           </div>
         </div>
@@ -163,7 +164,7 @@
             {{$free_courses->desc}}
             </p>
             <a href="{{url('free-courses-page',$free_courses->id)}}"
-              ><button class="btn">Read More</button></a
+              ><button class="btn">{{ __('messages.free_course_btn')}}</button></a
             >
           </div>
         </div>
@@ -183,7 +184,7 @@
           <div class="row news-letter-row p-5">
             <div class="col-md-6">
               <div class="news-letter-sec crs-news-letter-sec">
-                <h2>Get weekly updates and seasonal free course access.</h2>
+                <h2>{{ __('messages.news_letter_h')}}</h2>
               </div>
             </div>
             <div class="col-md-6">
@@ -192,12 +193,12 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Enter Email Here"
+                    placeholder="{{ __('messages.get_in_touch_form_email_plac')}}"
                     aria-label="Recipient's username"
                     aria-describedby="basic-addon2"
                   />
                   <span class="input-group-text" id="basic-addon2"
-                    >Subscribe</span
+                    >{{ __('messages.news_letter_subscribe_btn')}}</span
                   >
                 </div>
               </div>

@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="sabiha-news-page-header-content">
-            <h1>Sabiha News Hello</h1>
+            <h1>{{ __('messages.about_sabiha_page_main_heading')}}</h1>
           </div>
         </div>
       </div>
@@ -21,8 +21,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="news-section-main-heading">
-              <h1>Sabiha Abdualkader News</h1>
-              <h1>Sabiha Abdualkader News </h1>
+     
+              <h1>{{ __('messages.about_sabiha_page_abdulqadeer_head')}}</h1>
+   
             </div>
           </div>
         </div>
@@ -46,7 +47,7 @@
                 <p>
                 {{$news->news_desc}}
                 </p>
-                <a href="{{url('news_detail',$news->id)}}"><h6>Read more</h6></a>
+                <a href="{{url('news_detail',$news->id)}}"><h6>{{ __('messages.free_course_btn')}}</h6></a>
               </div>
             </div>
           </div>    
@@ -87,12 +88,12 @@
           <div class="row pt-4 pb-4">
           <div class="col-md-8 col-12">
             <div class="newslatter-heading">
-              <h2>Your mental well-being is important! Access consulting and coaching videos here, completely free</h2>
+              <h2>{{ __('messages.about_sabiha_page_your_mental_head')}}</h2>
             </div>
           </div>
           <div class="col-md-4 col-12 sabiha-news-letter-button-div">
             <div class="sabiha-news-latter-btn">
-              <button class="btn "><a href="{{url('courses')}}">Courses<i class="fa-solid fa-arrow-right ps-2"></i></a></button>
+              <button class="btn "><a href="{{url('courses')}}">{{ __('messages.nav_course_btn')}}<i class="fa-solid fa-arrow-right ps-2"></i></a></button>
             </div>
           </div>
         </div>

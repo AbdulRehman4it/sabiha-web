@@ -4,11 +4,13 @@
       <div class="row">
         <div class="col-md-12">
           <div class="most-feature-sction-heading free-courses-main-heading">
-            <h1>Free Courses</h1>
-            <p>
+            <h1>{{ __('messages.free_course_heading')}}</h1>
+            <!-- <p>
               Explore free courses! Elevate your mind and liberate your
               emotional burden.
-            </p>
+            </p> -->
+            <p>{{ __('messages.free_course_para')}}</p>
+           
           </div>
         </div>
       </div>
@@ -55,7 +57,7 @@
             {{$free_courses->desc}}
             </p>
             <a href="{{url('free-courses-page',$free_courses->id)}}"
-              ><button class="btn">Read More</button></a
+              ><button class="btn">{{ __('messages.free_course_btn')}}</button></a
             >
           </div>
         </div>

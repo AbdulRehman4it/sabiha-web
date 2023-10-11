@@ -17,12 +17,15 @@
                   alt="..."
                 />
                 <div class="carousel-caption">
-                  <h2>
+            <h2>{{ __('messages.slider_main_heading')}}</h2>
+                  <p>{{ __('messages.slider_para')}}</p>
+                  
+                  <!-- <h2>
                     Mindset Makeover<br />
                     Your Emotional Freedom Starts Here<br />
                     Sabiha Abdulkader
-                  </h2>
-                  <p>Certified psychologist and professional mental coach</p>
+                  </h2> -->
+                  <!-- <p>Certified psychologist and professional mental coach</p> -->
                 </div>
               </div>
               <div class="carousel-item active">
@@ -32,12 +35,10 @@
                   alt="..."
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>
-                    Mindset Makeover<br />
-                    Your Emotional Freedom Starts Here<br />
-                    Sabiha Abdulkader
-                  </h2>
-                  <p>Certified psychologist and professional mental coach</p>
+            <h2>{{ __('messages.slider_main_heading')}}</h2>
+            <p>{{ __('messages.slider_para')}}</p>
+               
+                
                 </div>
               </div>
               <div class="carousel-item active">
@@ -47,12 +48,10 @@
                   alt="..."
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>
-                    Mindset Makeover<br />
-                    Your Emotional Freedom Starts Here<br />
-                    Sabiha Abdulkader
-                  </h2>
-                  <p>Certified psychologist and professional mental coach</p>
+                <h2>{{ __('messages.slider_main_heading')}}</h2>
+
+                <p>{{ __('messages.slider_para')}}</p>
+
                 </div>
               </div>
             </div>

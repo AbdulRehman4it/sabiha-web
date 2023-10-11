@@ -9,11 +9,14 @@
         <div class="col-md-1 col-6">
           <div class="footer-links">
             <ul class="mb-0">
-              <h5>Menu</h5>
-              <a href="./index.html"><li>Home</li></a>
-              <a href="./courses.html"><li>Courses</li></a>
-              <a href="./FAQ-page.html"> <li>FAQ</li></a>
-              <a href="./contact_us_page.html"><li>Contact</li></a>
+              <h5>{{ __('messages.footer_menu_head')}}</h5>
+              <a href="./index.html"><li>{{ __('messages.nav_home_btn')}}</li></a>
+              <a href="./courses.html">
+                <li>{{ __('messages.nav_course_btn')}}</li>
+              </a>
+            
+              <a href="./FAQ-page.html"> <li>{{ __('messages.nav_FAQ_btn')}}</li></a>
+              <a href="./contact_us_page.html"><li>{{ __('messages.footer_cntct_nav')}}</li></a>
             </ul>
           </div>
         </div>
@@ -21,12 +24,12 @@
         <div class="col-md-2 col-6">
           <div class="footer-links">
             <ul class="mb-0">
-              <h5>Explore links</h5>
-              <a href="./about_sabiha_page.html"><li>About <p>Sabiha</p></li></a>
-              <a href="#"><li>Create an account</li></a>
-              <a href="./courses.html"><li>Courses</li></a>
-              <a href="./courses.html"><li>Blog</li></a>
-              <!-- <a href="./courses.html"><li>See More</li></a> -->
+              <h5>{{ __('messages.footer_explore_head')}}</h5>
+              <a href=""><li>{{ __('messages.footer_abt_sabiha_head')}}</li></a>
+              <a href="#"><li>{{ __('messages.footer_create_accounnt_head')}}</li></a>
+              <!-- <a href="./courses.html"><li>Courses</li></a> -->
+              <a href=""><li>{{ __('messages.footer_blog_head')}}</li></a>
+              <a href=""><li>{{ __('messages.home_news_btn')}}</li></a>
             </ul>
           </div>
         </div>
@@ -44,13 +47,13 @@
       <div class="row">
         <div class="col-md-8 col-12">
           <div class="footer-copyright">
-            <p>Copyright © 2023 Sabiha. All Rights Reserved.</p>
+            <p>{{ __('messages.footer_copyright_head')}}</p>
           </div>
         </div>
         <div class="col-md-4 col-12">
           <div class="terms">
-            <a href="./terms-and-condition-page.html" class="pe-0 pe-md-5"><p>Terms of Use</p></a>
-            <a href="./privacy-police-page.html" class="ps-5 ps-md-0"><p>Privacy Policy</p></a>
+            <a href="./terms-and-condition-page.html" class="pe-0 pe-md-5"><p>{{ __('messages.footer_terms_head')}}</p></a>
+            <a href="./privacy-police-page.html" class="ps-5 ps-md-0"><p>{{ __('messages.footer_privacy_head')}}</p></a>
           </div>
         </div>
       </div>
@@ -77,3 +80,16 @@
   }
 }
 </script>
+
+<!-- language translator script -->
+
+<script type="text/javascript">
+  
+    var url = "{{ route('changeLang') }}";
+  
+    $(".changeLang").change(function(){
+        window.location.href = url + "?lang="+ $(this).val();
+    });
+  
+</script>
+<!--  -->

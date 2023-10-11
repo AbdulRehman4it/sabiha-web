@@ -2682,8 +2682,8 @@ table.dataTable.dtr-inline.collapsed
   margin-left: 20px;
 }
 .header_iner .header_right .header_notification_warp li{
-    border-radius: 10px;
-border: 1px solid #DF5C62;
+    /* border-radius: 10px; */
+/* border: 1px solid #DF5C62; */
 padding:16px;
 }
 @media (max-width: 575.98px) {
@@ -3167,7 +3167,7 @@ table.dataTable {
 }
 .sidebar .logo {
   margin: 0;
-  background: #f3f6f9;
+  /* background: #f3f6f9; */
   padding: 24px;
   margin-bottom: 20px;
 }
@@ -8304,7 +8304,8 @@ a.pswp__share--download:hover {
   border-radius: 10px;
   position: absolute;
   right: 0;
-  width: 350px;
+  /* width: 350px; */
+  width: 500px;
   transform: translateY(30px) translateX(20px);
   opacity: 0;
   visibility: hidden;
@@ -8327,15 +8328,21 @@ a.pswp__share--download:hover {
   }
 }
 .Menu_NOtification_Wrap .notification_Header {
-  padding: 15px 20px;
+  /* padding: 15px 20px; */
+  padding: 20px 20px;
   border-radius: 10px 10px 0 0;
-  background: #8950fc;
+  /* background: #8950fc; */
 }
 .Menu_NOtification_Wrap .notification_Header h4 {
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  /* color: #fff; */
   margin-bottom: 0;
+  color: var(--neutral-black, #141522);
+font-family: Plus Jakarta Sans;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
 }
 .Menu_NOtification_Wrap .Notification_body {
   padding: 20px;
@@ -8343,7 +8350,9 @@ a.pswp__share--download:hover {
   overflow: auto;
 }
 .Menu_NOtification_Wrap .Notification_body .single_notify {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  margin-bottom: 20px;
+    border-bottom: 1px solid #F5F5F7;
 }
 .Menu_NOtification_Wrap .Notification_body .single_notify:last-child {
   margin-bottom: 0;

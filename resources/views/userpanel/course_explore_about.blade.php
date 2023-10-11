@@ -180,31 +180,31 @@
 
                 <div class="review-your-order-main-row">
                   <div class="psychology-main-heading">
-                    <h2>Learn Psychology or improve your skills online today</h2>
+                    <h2>{{$feature_courses->course_title}}</h2>
                   </div>
                   <div class="justify-content-between d-flex review-your-order-page-userpanel-cotent-div mt-3">
-                    <p ><img src="{{url('userpanel./images/course-card-img1.png')}}" alt="" class="me-2">Emerson Siphron
-                    <span class="ms-3" style="color: var(--neutral-dark-grey, #9C9CA4);">Psychology Trainer</span>
+                    <p ><img src="/imgs/{{$feature_courses->profile_image}}" alt="" class="me-2">{{$feature_courses->profile_name}}
+                    <span class="ms-3" style="color: var(--neutral-dark-grey, #9C9CA4);">{{$feature_courses->field}}</span>
                   <span class="ms-3" style="color: var(--secondary-blue, #04A4F4);">+ Follow  Mentor</span></p>
                     <h6 class="d-md-block d-none"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                       <path d="M9.60156 3.06934L11.5415 7.57405L16.4252 8.027L12.7404 11.264L13.8188 16.0487L9.60156 13.5445L5.38432 16.0487L6.46268 11.264L2.77792 8.027L7.66162 7.57405L9.60156 3.06934Z" fill="#FFBB54"/>
-                    </svg>4.5</h6> </div>
+                    </svg>{{$feature_courses->rating}}</h6> </div>
                
                 <div class="mt-3">
                 <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M7.99984 8.00016C9.84079 8.00016 11.3332 6.50778 11.3332 4.66683C11.3332 2.82588 9.84079 1.3335 7.99984 1.3335C6.15889 1.3335 4.6665 2.82588 4.6665 4.66683C4.6665 6.50778 6.15889 8.00016 7.99984 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M13.7268 14.6667C13.7268 12.0867 11.1601 10 8.0001 10C4.8401 10 2.27344 12.0867 2.27344 14.6667" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>500 Student</span>
+                </svg>{{$feature_courses->students}}</span>
                 <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M6.00016 14.6668H10.0002C13.3335 14.6668 14.6668 13.3335 14.6668 10.0002V6.00016C14.6668 2.66683 13.3335 1.3335 10.0002 1.3335H6.00016C2.66683 1.3335 1.3335 2.66683 1.3335 6.00016V10.0002C1.3335 13.3335 2.66683 14.6668 6.00016 14.6668Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M10.5 6H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M10.5 10H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>5 Modul</span>
+                </svg>{{$feature_courses->modules}}</span>
                 <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M14.6668 8.00016C14.6668 11.6802 11.6802 14.6668 8.00016 14.6668C4.32016 14.6668 1.3335 11.6802 1.3335 8.00016C1.3335 4.32016 4.32016 1.3335 8.00016 1.3335C11.6802 1.3335 14.6668 4.32016 14.6668 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M10.4734 10.1202L8.40675 8.88684C8.04675 8.6735 7.75342 8.16017 7.75342 7.74017V5.00684" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>1h 30m</span>
-                <span class="ms-2 float-end">Master <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                </svg>{{$feature_courses->time}}</span>
+                <span class="ms-2 float-end">{{$feature_courses->level_of_expertise}} <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                   <rect y="6.46143" width="3" height="5.53846" rx="1.5" fill="#DB5962"/>
                   <rect x="5" y="3.69238" width="3" height="8.30769" rx="1.5" fill="#DB5962"/>
                   <rect x="10" width="3" height="12" rx="1.5" fill="#DB5962"/>
@@ -212,13 +212,13 @@
               </div>
                   <div class="row overview-link">
                     <div class="col-md-3 col-4">
-                      <a href="{{('userpenal_course_explore_about_page')}}"><h3 class="active">About</h3> </a>
+                      <a href="{{url('userpenal_course_explore_about_page',$feature_courses->id)}}"><h3 class="active">About</h3> </a>
                     </div>
                     <div class="col-md-3 col-4">
-                      <a href="{{('explore_course_page_assingment_page')}}"><h3 >Assignment</h3> </a>
+                      <a href="{{url('explore_course_page_assingment_page',$feature_courses->id)}}"><h3 >Assignment</h3> </a>
                     </div>
                     <div class="col-md-3 col-4">
-                      <a href="{{('explore_courses_review_page_userpanel')}}"><h3 >Review</h3> </a>
+                      <a href="{{url('explore_courses_review_page_userpanel',$feature_courses->id)}}"><h3 >Review</h3> </a>
                     </div>
                     <div class="col-md-3 d-none d-md-block"></div>
                   </div>
@@ -226,9 +226,9 @@
               <div class="row">
                 <div class="about-description-userpenal">
                   <h2>Description</h2>
-                  <p>The community's need for applications that can facilitate daily activities is increasing as technology advances. Currently, many companies are looking for developers so that they can sell products (goods or services) that can reach wider buyers online. To become a developer, we are not required to understand all the science of design, but at least we can know the basics so that we can realize the design into code into a complete application more effectively. This class is the right medium to learn design and coding at the same time. With Mentor, you will create useful applications by adding animations to applications that are made to make them more interesting and interactive.</p><br>
-                  <p>Our expert Mentors will explain how to create a furniture application from the design to code stage using the flagship Google Flutter SDK framework. By using the popular design tool Figma, you will learn the basics of creating interactive mockups as an illustration into an application or commonly known as a prototype. Then you will learn to apply animation between screens to make the prototype come alive. After that, the process will continue to slicing with a variety of ready-to-use Flutter Widgets so that the developer's work can be more efficient, saving time and effort.</p><br>
-                  <p>This class is suitable for those of you who want to deepen complete mobile application development on the front-end side. Later the application that is successfully built can become a portfolio for applying for work or your personal business needs. If you encounter difficulties while studying, please ask our Mentor directly through the Telegram group, OK? Register now and we are waiting in class!</p>
+                  <p>{{$feature_courses->course_desc}}</p><br>
+                  <!-- <p>Our expert Mentors will explain how to create a furniture application from the design to code stage using the flagship Google Flutter SDK framework. By using the popular design tool Figma, you will learn the basics of creating interactive mockups as an illustration into an application or commonly known as a prototype. Then you will learn to apply animation between screens to make the prototype come alive. After that, the process will continue to slicing with a variety of ready-to-use Flutter Widgets so that the developer's work can be more efficient, saving time and effort.</p><br>
+                  <p>This class is suitable for those of you who want to deepen complete mobile application development on the front-end side. Later the application that is successfully built can become a portfolio for applying for work or your personal business needs. If you encounter difficulties while studying, please ask our Mentor directly through the Telegram group, OK? Register now and we are waiting in class!</p> -->
                 </div>
               </div>
               <div class="row mb-5">
@@ -260,28 +260,27 @@
               <div class="col-md-12">
                 <div class="sidebar-card-2-dashboard-user">
                   <div class="sidebar-card2-inner-card-userpenal enroll-course-page-userpenal">
-                    <h3>Learn Psychology or improve your 
-                      Skills Online Today</h3>
+                    <h3>{{$feature_courses->course_title}}</h3>
                       <div class="justify-content-between d-flex mt-2">
-                        <p ><img src="{{url('userpanel./images/course-card-img1.png')}}" alt="" class="me-2">Emerson Siphron</p>
+                        <p ><img src="/imgs/{{$feature_courses->profile_image}}" alt="" class="me-2">{{$feature_courses->profile_name}}</p>
                         <h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                           <path d="M9.60156 3.06934L11.5415 7.57405L16.4252 8.027L12.7404 11.264L13.8188 16.0487L9.60156 13.5445L5.38432 16.0487L6.46268 11.264L2.77792 8.027L7.66162 7.57405L9.60156 3.06934Z" fill="#FFBB54"/>
-                        </svg>4.5</h6> </div>
+                        </svg>{{$feature_courses->rating}}</h6> </div>
                    
                     <div class="mt-3">
                     <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M7.99984 8.00016C9.84079 8.00016 11.3332 6.50778 11.3332 4.66683C11.3332 2.82588 9.84079 1.3335 7.99984 1.3335C6.15889 1.3335 4.6665 2.82588 4.6665 4.66683C4.6665 6.50778 6.15889 8.00016 7.99984 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M13.7268 14.6667C13.7268 12.0867 11.1601 10 8.0001 10C4.8401 10 2.27344 12.0867 2.27344 14.6667" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>500 Student</span>
+                    </svg>{{$feature_courses->students}}</span>
                     <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M6.00016 14.6668H10.0002C13.3335 14.6668 14.6668 13.3335 14.6668 10.0002V6.00016C14.6668 2.66683 13.3335 1.3335 10.0002 1.3335H6.00016C2.66683 1.3335 1.3335 2.66683 1.3335 6.00016V10.0002C1.3335 13.3335 2.66683 14.6668 6.00016 14.6668Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.5 6H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.5 10H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>5 Modul</span>
+                    </svg>{{$feature_courses->modules}}</span>
                     <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M14.6668 8.00016C14.6668 11.6802 11.6802 14.6668 8.00016 14.6668C4.32016 14.6668 1.3335 11.6802 1.3335 8.00016C1.3335 4.32016 4.32016 1.3335 8.00016 1.3335C11.6802 1.3335 14.6668 4.32016 14.6668 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.4734 10.1202L8.40675 8.88684C8.04675 8.6735 7.75342 8.16017 7.75342 7.74017V5.00684" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>1h 30m</span>
+                    </svg>{{$feature_courses->time}}</span>
                   </div>
                   <div class="mt-3">
                     <h5>5 Modul<span class="float-end task-done">0/5 Done</span></h5>

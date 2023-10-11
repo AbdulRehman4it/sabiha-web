@@ -23,15 +23,21 @@
             <div class="col-md-1"></div>
             <div class="col-md-6">
               <div class="about-us-content">
-                <h4>About US</h4>
-                <h2>Psychological Consultant/Business Coach/Mental Coach</h2>
+                <!-- <h4>About US</h4> -->
+      
+
+            <h4>{{ __('messages.about-us')}}</h4>
+
+                <h2>{{ __('messages.Psyc-Conslt')}}</h2>
                 <p>
-                  Sabiha Abdulkader is a certified psychologist <br/>and mentor. With
+                {{ __('messages.about-us-para')}}
+                  <!-- Sabiha Abdulkader is a certified psychologist <br/>and mentor. With
                   a focus on mental <br/>empowerment, her expertise ranges from  <br/>
                   family counselling, mental health, and NLP to <br/>business
-                  coaching and female development.
+                  coaching and female development. -->
                 </p>
-                <button class="btn"><a href="{{url('abut_sabiha_abdulkader_detail_page')}}">About News</a></button>
+                
+                <button class="btn"><a href="{{url('abut_sabiha_abdulkader_detail_page')}}"></a>{{ __('messages.abt_btn')}}</button>
               </div>
             </div>
           </div>

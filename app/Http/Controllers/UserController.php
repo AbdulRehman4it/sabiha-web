@@ -38,32 +38,33 @@ class UserController extends Controller
     {
         $feature_courses=feature_courses::all();
         $free_courses=free_courses::all();
- 
-    
-
         return view('userpanel.user_penal_courses_page',compact('feature_courses','free_courses'));
     }
 
 
     
-    public function userpenal_course_explore_about_page()
+    public function course_explore_about($id)
     {
 
-        return view('userpanel.userpenal_course_explore_about_page');
+        $feature_courses=feature_courses::find($id);
+        $free_courses=free_courses::find($id);
+        return view('userpanel.course_explore_about',compact('feature_courses','free_courses'));
 
     }
     
-    public function explore_course_page_assingment_page()
+    public function explore_course_page_assingment_page($id)
     {
 
-        return view('userpanel.explore_course_page_assingment_page');
+        $feature_courses=feature_courses::find($id);
+        return view('userpanel.explore_course_page_assingment_page',compact('feature_courses'));
 
     }
     
-    public function explore_courses_review_page_userpanel()
+    public function explore_courses_review_page_userpanel($id)
     {
 
-        return view('userpanel.explore_courses_review_page_userpanel');
+        $feature_courses=feature_courses::find($id);
+        return view('userpanel.explore_courses_review_page_userpanel',compact('feature_courses'));
 
     }
     

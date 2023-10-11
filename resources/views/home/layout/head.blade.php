@@ -36,12 +36,13 @@
     />
     <!--  -->
     
-
+<!-- language translator cdn-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  
     <!-- ===================  CUSTOME FILE LINK START HERE================== -->
 
    
-    <link rel="stylesheet" href="{!! url('home./css/style.css') !!}" />
+    <!-- <link rel="stylesheet" href="{!! url('home./css/style.css') !!}" />
     <link rel="stylesheet" href="{{url('home./css/about_sabiha_page.css')}}">
     <link rel="stylesheet" href="{{url('home./css/terms-and-condition-page.css')}}" />
     <link rel="stylesheet" href="{{url('home./css/checkout-page.css')}}">
@@ -51,7 +52,22 @@
     <link rel="stylesheet" href="{!! url('home./css/courses.css') !!}" />
     <link rel="stylesheet" href="{{url('home./css/payment-method-page.css')}}" />
     <link rel="stylesheet" href="{{url('home./css/review-your-order-page.css')}}">
-    <link rel="stylesheet" href="{{url('home./css/faq-page.css')}}" />
+    <link rel="stylesheet" href="{{url('home./css/faq-page.css')}}" /> -->
+
+
+    <link href="{{ URL::asset('home/css/style.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/about_sabiha_page.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/terms-and-condition-page.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/checkout-page.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/contact_us_page.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/course-overview-page.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/course-detail-review-page.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/courses.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/payment-method-page.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/review-your-order-page.css') }}"  rel="stylesheet">
+   
+   <link href="{{ URL::asset('home/css/faq-page.css') }}"  rel="stylesheet">
+
 
 
   </head>

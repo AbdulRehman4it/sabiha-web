@@ -211,13 +211,13 @@
               </div>
                   <div class="row overview-link">
                     <div class="col-md-3 col-4">
-                      <a href="{{('userpenal_course_explore_about_page')}} "><h3 >About</h3> </a>
+                      <a href="{{url('userpenal_course_explore_about_page',$feature_courses->id)}}"><h3 >About</h3> </a>
                     </div>
                     <div class="col-md-3 col-4">
-                      <a href="{{('explore_course_page_assingment_page')}}"><h3 class="active" >Assignment</h3> </a>
+                      <a href="{{url('explore_course_page_assingment_page',$feature_courses->id)}}"><h3 class="active" >Assignment</h3> </a>
                     </div>
                     <div class="col-md-3 col-4">
-                      <a href="{{('explore_courses_review_page_userpanel')}}"><h3 >Review</h3> </a>
+                      <a href="{{url('explore_courses_review_page_userpanel',$feature_courses->id)}}"><h3 >Review</h3> </a>
                     </div>
                     <div class="col-md-3 d-none d-md-block"></div>
                   </div>

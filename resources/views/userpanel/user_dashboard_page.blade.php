@@ -61,69 +61,61 @@
                     </a>
 
                     <div class="Menu_NOtification_Wrap">
-                      <div class="notification_Header">
-                        <h4>Notifications</h4>
+                      <div class="notification_Header d-flex">
+                        <h4>Notification</h4>
+                        
                       </div>
                       <div class="Notification_body">
                         <div class="single_notify d-flex align-items-center">
                           <div class="notify_thumb">
-                            <a href="#"><img src="images/2.png" alt="" /></a>
+                            <a href="#"><img src="{{url('userpanel./images/msg-box-icon.png')}}" alt="" /></a>
                           </div>
                           <div class="notify_content">
-                            <a href="#"><h5>Cool Marketing</h5></a>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><h5>New Course</h5></a>
+                            <p>Brian tylor added new course. Check this out!</p>
                           </div>
                         </div>
 
                         <div class="single_notify d-flex align-items-center">
                           <div class="notify_thumb">
-                            <a href="#"><img src="images/4.png" alt="" /></a>
+                            <a href="#"><img src="{{url('userpanel./images/sidebar-card-2-tchr.png')}}" alt="" /></a>
                           </div>
                           <div class="notify_content">
-                            <a href="#"><h5>Awesome packages</h5></a>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><h5>Emery t</h5></a>
+                            <p>You have new message from emery</p>
                           </div>
                         </div>
 
                         <div class="single_notify d-flex align-items-center">
                           <div class="notify_thumb">
-                            <a href="#"><img src="images/3.png" alt="" /></a>
+                            <a href="#"><img src="{{url('userpanel./images/setting-icon.png')}}" alt="" /></a>
                           </div>
                           <div class="notify_content">
-                            <a href="#"><h5>what a packages</h5></a>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><h5>System</h5></a>
+                            <p>Update your information </p>
                           </div>
                         </div>
 
                         <div class="single_notify d-flex align-items-center">
                           <div class="notify_thumb">
-                            <a href="#"><img src="images/2.png" alt="" /></a>
+                            <a href="#"><img src="{{url('userpanel./images/round-icon.png')}}" alt="" /></a>
                           </div>
                           <div class="notify_content">
-                            <a href="#"><h5>Cool Marketing</h5></a>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><h5>My Course</h5></a>
+                            <p>Come on other course modules have been waiting to be completed</p>
                           </div>
                         </div>
 
                         <div class="single_notify d-flex align-items-center">
                           <div class="notify_thumb">
-                            <a href="#"><img src="images/4.png" alt="" /></a>
+                            <a href="#"><img src="{{url('userpanel./images/my-teacher-img1.png')}}" alt="" /></a>
                           </div>
                           <div class="notify_content">
-                            <a href="#"><h5>Awesome packages</h5></a>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><h5>Emerson Levin</h5></a>
+                            <p>You have new message from emerson</p>
                           </div>
-                        </div>
-
-                        <div class="single_notify d-flex align-items-center">
-                          <div class="notify_thumb">
-                            <a href="#"><img src="images/3.png" alt="" /></a>
-                          </div>
-                          <div class="notify_content">
-                            <a href="#"><h5>what a packages</h5></a>
-                            <p>Lorem ipsum dolor sit amet</p>
-                          </div>
-                        </div>
+                          <p class="float-end">3 m ago</p>
+                        </div>                     
                       </div>
                       <div class="nofity_footer">
                         <div class="submit_button text-center pt_20">
@@ -134,7 +126,9 @@
                   </li>
                 </div>
                 <div class="profile_info">
-                  <p>S</p>
+                  <!-- <p> -->
+                  <img src="{{url('userpanel./images/profile-pic.png')}}" class="img-fluid" alt="">
+                  <!-- </p> -->
                   <div class="profile_info_iner">
                     <div class="profile_author_name">
                       <p>Neurologist</p>
@@ -196,7 +190,7 @@
                             </div>
                           </div>
                           <div>
-                            <h4>Follow</h4>
+                            <h4>Followed</h4>
                           </div>
                         </div>
                         <div class="d-flex pt-3">
@@ -227,7 +221,7 @@
                           </div>
                         </div>
                         <div>
-                          <h4>Follow</h4>
+                          <h4>Followed</h4>
                         </div>
                       </div>
                       <div class="d-flex pt-3">
@@ -417,28 +411,31 @@
                       </div>
                     </div> 
                     <div class="justify-content-center d-flex align-items-center">
-                      <img src="./images/sidebar-card2-img-1.png" alt="" width="100%" >
+                      <img src="{{url('userpanel./images/sidebar-card2-img-1.png')}}" alt="" width="100%" >
                     </div>
                     <h3>UX Design : How To Implement Usability Testing</h3>
                     <div class="justify-content-between d-flex pt-3">
                       <h2>Alfredo Rhiel Madsen</h2>
-                      <img src="./images/sidebar-card-2-tchr.png" alt="">
+                      <img src="{{url('userpanel./images/sidebar-card-2-tchr.png')}}" alt="">
                     </div>
                    
                     <div class="mt-3">
                     <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M7.99984 8.00016C9.84079 8.00016 11.3332 6.50778 11.3332 4.66683C11.3332 2.82588 9.84079 1.3335 7.99984 1.3335C6.15889 1.3335 4.6665 2.82588 4.6665 4.66683C4.6665 6.50778 6.15889 8.00016 7.99984 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M13.7268 14.6667C13.7268 12.0867 11.1601 10 8.0001 10C4.8401 10 2.27344 12.0867 2.27344 14.6667" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>500 Student</span>
+                    </svg></span>
+                    <span>500 Student</span>
                     <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M6.00016 14.6668H10.0002C13.3335 14.6668 14.6668 13.3335 14.6668 10.0002V6.00016C14.6668 2.66683 13.3335 1.3335 10.0002 1.3335H6.00016C2.66683 1.3335 1.3335 2.66683 1.3335 6.00016V10.0002C1.3335 13.3335 2.66683 14.6668 6.00016 14.6668Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.5 6H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.5 10H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>5 Modul</span>
+                    </svg></span>
+                    <span>5 Modul</span>
                     <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M14.6668 8.00016C14.6668 11.6802 11.6802 14.6668 8.00016 14.6668C4.32016 14.6668 1.3335 11.6802 1.3335 8.00016C1.3335 4.32016 4.32016 1.3335 8.00016 1.3335C11.6802 1.3335 14.6668 4.32016 14.6668 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.4734 10.1202L8.40675 8.88684C8.04675 8.6735 7.75342 8.16017 7.75342 7.74017V5.00684" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>1h 30m</span>
+                    </svg></span>
+                    <span>1h 30m</span>
                   </div>
                   <div class="mt-3">
                     <h5>5 Modul<span class="float-end task-done">0/5 Done</span></h5>

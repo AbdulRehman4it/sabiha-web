@@ -135,7 +135,9 @@
                   </li>
                 </div>
                 <div class="profile_info">
-                  <p>S</p>
+                  <!-- <p>S</p> -->
+                  <img src="{{url('userpanel./images/profile-pic.png')}}" class="img-fluid" alt="">
+
                   <div class="profile_info_iner">
                     <div class="profile_author_name">
                       <p>Neurologist</p>
@@ -155,7 +157,7 @@
         <div class="row teacher-detail-page-row1 row teacher-detail-page-row2">
           <div class="col-md-6 col-12" id="installment-search">
               <div class="search-section">
-                  <input class="form-control me-2" type="search" placeholder="Search  Course Name/Mentor" aria-label="Search">
+                  <input class="form-control me-2" type="search" placeholder="Search Course Name/Mentor" aria-label="Search">
                   <i class="fa-solid fa-magnifying-glass"></i>
               </div>
           </div>
@@ -253,13 +255,19 @@
                   <div
                 class=" d-flex text-align-center justify-content-center align-items-center"
               > 
-        <nav>
-          <div class="nav" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Featured Courses</button>
-            <button class="nav-link ms-md-3 ms-2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">FreeCourses</button>
+        <!-- <nav> -->
+          <!-- <div class="nav" id="nav-tab" role="tablist"> -->
+                           <button id="form1show">Change Password <br>
+                                        <i class="fa-solid fa-lock"></i>
+                                    </button>
+                                    <button id="form2show">Change Email <br>
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </button>
+            <!-- <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Featured Courses</button>
+            <button class="nav-link ms-md-3 ms-2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">FreeCourses</button> -->
             <!-- <button class="nav-link ms-md-3 ms-2" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Popular Courses</button> -->
-          </div>
-		    </nav>
+          <!-- </div> -->
+		    <!-- </nav> -->
               </div>
             </div>
           </div>
@@ -267,14 +275,15 @@
 
 
 
-          <div class="row tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <!-- <div class="row tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"> -->
+          <div class="row">
             <div class="col-xl-12">   
              <!-- card section -->
-            <div class="row mt-5">
+            <div class="row mt-5" id="form1">
               <!-- card1 -->
               @foreach ($feature_courses as $feature_courses)             
               <div class="col-md-4 mt-4">
-              <a href="{{('userpenal_course_explore_about_page')}}">
+              <a href="{{url('course_explore_about',$feature_courses->id)}}">
                 <div class="sidebar-card-2-dashboard-user">
                   <div class="sidebar-card2-inner-card-userpenal">
                     <div class="justify-content-center d-flex align-items-center">
@@ -291,16 +300,25 @@
                     <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M7.99984 8.00016C9.84079 8.00016 11.3332 6.50778 11.3332 4.66683C11.3332 2.82588 9.84079 1.3335 7.99984 1.3335C6.15889 1.3335 4.6665 2.82588 4.6665 4.66683C4.6665 6.50778 6.15889 8.00016 7.99984 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M13.7268 14.6667C13.7268 12.0867 11.1601 10 8.0001 10C4.8401 10 2.27344 12.0867 2.27344 14.6667" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>{{$feature_courses->students}}</span>
+                    </svg></span>
+                    <span>
+                    {{$feature_courses->students}}
+                    </span>
                     <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M6.00016 14.6668H10.0002C13.3335 14.6668 14.6668 13.3335 14.6668 10.0002V6.00016C14.6668 2.66683 13.3335 1.3335 10.0002 1.3335H6.00016C2.66683 1.3335 1.3335 2.66683 1.3335 6.00016V10.0002C1.3335 13.3335 2.66683 14.6668 6.00016 14.6668Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.5 6H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.5 10H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>{{$feature_courses->modules}}</span>
+                    </svg></span>
+                    <span>
+                    {{$feature_courses->modules}}
+                    </span>
                     <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path d="M14.6668 8.00016C14.6668 11.6802 11.6802 14.6668 8.00016 14.6668C4.32016 14.6668 1.3335 11.6802 1.3335 8.00016C1.3335 4.32016 4.32016 1.3335 8.00016 1.3335C11.6802 1.3335 14.6668 4.32016 14.6668 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M10.4734 10.1202L8.40675 8.88684C8.04675 8.6735 7.75342 8.16017 7.75342 7.74017V5.00684" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>{{$feature_courses->time}}</span>
+                    </svg></span>
+                    <span>
+                    {{$feature_courses->time}}
+                    </span>
                   </div>
                   </div>
                 </div>
@@ -468,21 +486,69 @@
                 </div>
               </div> -->
             </div>
+            <div class="row mt-5" id="form2">
+              <!-- card1 -->
+              @foreach ($free_courses as $free_courses)
+         
+              <div class="col-md-4 mt-4">
+              <a href="{{url('course_explore_about',$free_courses->id)}}">
+                <div class="sidebar-card-2-dashboard-user">
+                  <div class="sidebar-card2-inner-card-userpenal">
+                    <div class="justify-content-center d-flex align-items-center">
+                      <img src="imgs/{{$free_courses->image}}" alt="" width="100%" >
+                    </div>
+                    <h3>hello</h3>
+                    <div class="justify-content-between d-flex mt-2">
+               
+                      <p ><img src="" alt="" class="me-2">hello</p>
+                      <h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M9.60156 3.06934L11.5415 7.57405L16.4252 8.027L12.7404 11.264L13.8188 16.0487L9.60156 13.5445L5.38432 16.0487L6.46268 11.264L2.77792 8.027L7.66162 7.57405L9.60156 3.06934Z" fill="#FFBB54"/>
+                      </svg></h6> </div>
+                    <div class="mt-3">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path d="M7.99984 8.00016C9.84079 8.00016 11.3332 6.50778 11.3332 4.66683C11.3332 2.82588 9.84079 1.3335 7.99984 1.3335C6.15889 1.3335 4.6665 2.82588 4.6665 4.66683C4.6665 6.50778 6.15889 8.00016 7.99984 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M13.7268 14.6667C13.7268 12.0867 11.1601 10 8.0001 10C4.8401 10 2.27344 12.0867 2.27344 14.6667" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></span>
+                    <span>
+                    500
+                    </span>
+                    <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path d="M6.00016 14.6668H10.0002C13.3335 14.6668 14.6668 13.3335 14.6668 10.0002V6.00016C14.6668 2.66683 13.3335 1.3335 10.0002 1.3335H6.00016C2.66683 1.3335 1.3335 2.66683 1.3335 6.00016V10.0002C1.3335 13.3335 2.66683 14.6668 6.00016 14.6668Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10.5 6H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10.5 10H5.5" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></span>
+                    <span>
+                   5
+                    </span>
+                    <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path d="M14.6668 8.00016C14.6668 11.6802 11.6802 14.6668 8.00016 14.6668C4.32016 14.6668 1.3335 11.6802 1.3335 8.00016C1.3335 4.32016 4.32016 1.3335 8.00016 1.3335C11.6802 1.3335 14.6668 4.32016 14.6668 8.00016Z" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10.4734 10.1202L8.40675 8.88684C8.04675 8.6735 7.75342 8.16017 7.75342 7.74017V5.00684" stroke="#9C9CA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></span>
+                    <span>
+                   1 hours
+                    </span>
+                  </div>
+                  </div>
+                </div>
+                </a>
+              </div>
+              @endforeach
+
+            </div>
 
 
           </div>
         </div>
-
-
-
-        <div class="tab-pane fade" id="nav-profile">
-        <div class="col-xl-12">   
+        <!-- <div class="tab-pane fade" id="nav-profile"> -->
+       
+        <!-- <div class="col-xl-12">    -->
              <!-- card section -->
-            <div class="row mt-5">
+
+            <!-- <div class="row mt-5" id="form2">
         
           @foreach ($free_courses as $free_courses)
 
-
+            <a href="{{url('userpenal_course_explore_about_page',$free_courses->id)}}">
               <div class="col-md-4 mt-4">
                 <div class="sidebar-card-2-dashboard-user">
                   <div class="sidebar-card2-inner-card-userpenal">
@@ -513,11 +579,12 @@
                   </div>
                 </div>
               </div>
+              </a>
               @endforeach
 
-          </div>
-          </div>
-</div>
+          </div> -->
+          <!-- </div> -->
+
       </div>
     </div>
     </section>
@@ -663,7 +730,26 @@
 @include('userpanel.layout.footer')
     
 
+<script>
+    $("#form1show").click(function(e) {
+        $('#form1').show();
+        $('#form2').hide();
+        
+    });
 
+    $('#form2show').click(function(e) {
+        $('#form2').show();
+        $('#form1').hide();
+      
+    });
+
+
+
+    $('#hideall').click(function(e) {
+        $('#form1').hide();
+        $('#form2').hide();
+    });
+</script>
 
 
 <script>

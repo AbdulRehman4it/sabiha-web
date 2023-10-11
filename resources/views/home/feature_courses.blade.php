@@ -4,11 +4,12 @@
         <div class="row">
           <div class="col-md-12">
             <div class="most-feature-sction-heading">
-              <h1>Most Feature Courses</h1>
-              <p>
+              <h1>{{ __('messages.fc_heading')}}</h1>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Imperdiet tempus felis vitae sit est quisque.
-              </p>
+              </p> -->
+              <p>{{ __('messages.fc_para')}}</p>
 </br>
 
 
@@ -25,13 +26,12 @@
 
     <nav>
 			<div class="nav  mb-3" id="nav-tab" role="tablist">
-				<button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Recent Courses</button>
-				<button class="nav-link ms-md-3 ms-2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Featured Courses</button>
-				<button class="nav-link ms-md-3 ms-2" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Popular Courses</button>
+				<button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">{{ __('messages.fc_recent_btn')}}</button>
+				<button class="nav-link ms-md-3 ms-2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">{{ __('messages.fc_featured_btn')}}</button>
+				<button class="nav-link ms-md-3 ms-2" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">{{ __('messages.fc_popular_btn')}}</button>
 			</div>
 		</nav>
-
-              </div>
+       </div>
 
 </br>
 

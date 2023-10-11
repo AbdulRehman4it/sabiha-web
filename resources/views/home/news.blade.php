@@ -4,7 +4,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="news-section-main-heading">
-              <h1>Sabiha Abdualkader News</h1>
+              <h1>{{ __('messages.home_news_heading')}}</h1>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@
                 <p>
                 {{ \Illuminate\Support\Str::limit($news->news_desc, $limit = 100, $end = '...') }}
                 </p>
-                <a href="{{url('news_detail',$news->id)}}"><h6>Read more</h6></a>
+                <a href="{{url('news_detail',$news->id)}}"><h6>{{ __('messages.home_news_btn')}}</h6></a>
               </div>
             </div>
           </div>

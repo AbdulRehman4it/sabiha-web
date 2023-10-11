@@ -6,6 +6,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
 
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\LangController;
 
 
 
@@ -131,9 +132,9 @@ route::get('/admin_course_detail_all_student_page',[AdminController::class,'admi
 route::get('/user_dashboard_page',[UserController::class,'user_dashboard_page']);
 route::get('/teacher_detail_page_userpanel',[UserController::class,'teacher_detail_page_userpanel']);
 route::get('/user_penal_courses_page',[UserController::class,'user_penal_courses_page']);
-route::get('/userpenal_course_explore_about_page',[UserController::class,'userpenal_course_explore_about_page']);
-route::get('/explore_course_page_assingment_page',[UserController::class,'explore_course_page_assingment_page']);
-route::get('/explore_courses_review_page_userpanel',[UserController::class,'explore_courses_review_page_userpanel']);
+route::get('/course_explore_about/{id}',[UserController::class,'course_explore_about']);
+route::get('/explore_course_page_assingment_page/{id}',[UserController::class,'explore_course_page_assingment_page']);
+route::get('/explore_courses_review_page_userpanel/{id}',[UserController::class,'explore_courses_review_page_userpanel']);
 route::get('/confirm_enroll_userpanel_page',[UserController::class,'confirm_enroll_userpanel_page']);
 route::get('/user_penal_payment_method_page',[UserController::class,'user_penal_payment_method_page']);
 route::get('/user_penal_review_your_order_page',[UserController::class,'user_penal_review_your_order_page']);
@@ -143,3 +144,6 @@ route::get('/user_profile_page',[UserController::class,'user_profile_page']);
 
 
 
+//  routes for language translate 
+Route::get("lang/home",[LangController::class,'index']);
+Route::get("lang/change",[LangController::class,'change'])->name('changeLang');

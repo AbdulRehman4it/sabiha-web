@@ -49,7 +49,9 @@
           <div class="row news-letter-row p-5">
             <div class="col-md-6">
               <div class="news-letter-sec">
-                <h2>Get weekly updates and seasonal free course access.</h2>
+                <!-- <h2>Get weekly updates and seasonal free course access.</h2> -->
+                <h2>{{ __('messages.news_letter_h')}}</h2>
+
               </div>
             </div>
             <div class="col-md-6">
@@ -58,12 +60,14 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Enter Email Here"
+                    placeholder="{{ __('messages.get_in_touch_form_email_plac')}}"
                     aria-label="Recipient's username"
                     aria-describedby="basic-addon2"
                   />
                   <span class="input-group-text" id="basic-addon2"
-                    >Subscribe</span
+                    >
+                    {{ __('messages.news_letter_subscribe_btn')}}
+                    </span
                   >
 
                 </div>
