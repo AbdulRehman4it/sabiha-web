@@ -52,7 +52,7 @@
     <!-- ===================  CUSTOME FILE LINK START HERE================== -->
 
 
-   <link href="{{ URL::asset('home/css/style.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/style.cs') }}"  rel="stylesheet">
    <link href="{{ URL::asset('home/css/about_sabiha_page.css') }}"  rel="stylesheet">
    <link href="{{ URL::asset('home/css/terms-and-condition-page.css') }}"  rel="stylesheet">
    <link href="{{ URL::asset('home/css/checkout-page.css') }}"  rel="stylesheet">
