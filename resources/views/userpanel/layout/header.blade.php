@@ -8,26 +8,28 @@
     />
     <title>SABIHA-LMS-DASHBOARD</title>
     <link rel="icon" href="images/mini_logo.png" type="image/png" />
-    <link rel="stylesheet" href="{{url('userpanel./css/bootstrap1.min.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/themify-icons.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/nice-select.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/owl.carousel.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/gijgo.min.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/all.min.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/tagsinput.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/date-picker.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/vectormap-2.0.2.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/scrollable.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/jquery.dataTables.min.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/responsive.dataTables.min.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/buttons.dataTables.min.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/summernote-bs4.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/morris.')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/material-icons.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/metisMenu.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/style1.css')}}" />
-    <link rel="stylesheet" href="{{url('userpanel./css/default.css')}}" id="colorSkinCSS" />
-    <link rel="stylesheet" href="{{url('userpanel./css/userpenal.css')}}">
+    <link href="{{URL::asset('userpanel/css/bootstrap1.min.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('userpanel/css/themify-icons.css')}}"  rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/nice-select.css')}}"  rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/owl.carousel.css')}}"  rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/gijgo.min.css')}}"  rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/all.min.css')}}"  rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/tagsinput.css')}}"  rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/date-picker.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('userpanel/css/vectormap-2.0.2.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('userpanel/css/scrollable.css')}}"  rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/jquery.dataTables.min.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('userpanel/css/responsive.dataTables.min.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('userpanel/css/buttons.dataTables.min.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('userpanel/css/summernote-bs4.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('userpanel/css/morris.')}}"  rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/material-icons.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('userpanel/css/metisMenu.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('userpanel/css/style1.css')}}"  rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/default.css')}}" id="colorSkinCSS" rel="stylesheet"/>
+    <link href="{{URL::asset('userpanel/css/userpenal.css') }}"  rel="stylesheet">
+
+
      <!-- =================== FONTAWESOME CDN START HERE ==================== -->
      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/> -->
   

@@ -27,7 +27,11 @@ class LangController extends Controller
     {
         App::setLocale($request->lang);
         session()->put('locale', $request->lang);
-  
-        return redirect()->back();
+   
+    
+    // Redirect back with the lang variable in the URL and a new variable
+    return redirect()->back()->with(['lang' => $request->lang,]);
     }
+
+    
 }

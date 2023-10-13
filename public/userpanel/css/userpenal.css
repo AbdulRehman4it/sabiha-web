@@ -27,6 +27,31 @@ h1, h2, h3, h4, h5, h6, p{
 #form2{
   display: none;
 }
+.most-feature-sction-heading .tabshift-btn button{
+  border-radius: 4px;
+background: #E7777D;
+border: none;
+}
+.most-feature-sction-heading .tabshift-btn  button{
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 14px 10px;
+  border-radius: 10px;
+}
+.most-feature-sction-heading .tabshift-btn  button:hover{
+  border: 1px solid #DF5C62;
+  color: #DF5C62;
+  background-color: transparent !important;
+}
+
 /* =====================USER PROFILE SECTION STYLING START HERE================== */
 .nav .active {
   background: #DF5C62 !important;

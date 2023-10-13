@@ -82,3 +82,5 @@
     <!-- ===================  GET IN TOUCH SECTION END HERE================== -->
 
     @include('home.layout.footer')
+
+    

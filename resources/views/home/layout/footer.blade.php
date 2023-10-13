@@ -72,14 +72,8 @@
 <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
 <!--  -->
 
-<script>
 
-  if(1 === 1) {
-    function loadGoogleTranslate(){
-    new google.translate.TranslateElement("google_translate_element");
-  }
-}
-</script>
+
 
 <!-- language translator script -->
 
@@ -88,8 +82,10 @@
     var url = "{{ route('changeLang') }}";
   
     $(".changeLang").change(function(){
-        window.location.href = url + "?lang="+ $(this).val();
+     
+     window.location.href = url + "?lang="+ $(this).val() ;
+     console.log(url + "?lang="+ $(this).val());
     });
   
 </script>
-<!--  -->
+

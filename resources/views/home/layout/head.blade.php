@@ -1,5 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<?php
+    $langs = session('lang');
+    if($langs=="ar"){
+      $dir="rtl";
+    }
+    else{
+      $dir="ltr";
+    }
+?>
+
+<html lang="<?php echo $langs;?>" dir = "<?php echo $dir;?>">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -41,21 +51,8 @@
  
     <!-- ===================  CUSTOME FILE LINK START HERE================== -->
 
-   
-    <!-- <link rel="stylesheet" href="{!! url('home./css/style.css') !!}" />
-    <link rel="stylesheet" href="{{url('home./css/about_sabiha_page.css')}}">
-    <link rel="stylesheet" href="{{url('home./css/terms-and-condition-page.css')}}" />
-    <link rel="stylesheet" href="{{url('home./css/checkout-page.css')}}">
-    <link rel="stylesheet" href="{{url('home./css/contact_us_page.css')}}">
-    <link rel="stylesheet" href="{{url('home./css/course-overview-page.css')}}" />
-    <link rel="stylesheet" href="{{url('home./css/course-detail-review-page.css')}}" />
-    <link rel="stylesheet" href="{!! url('home./css/courses.css') !!}" />
-    <link rel="stylesheet" href="{{url('home./css/payment-method-page.css')}}" />
-    <link rel="stylesheet" href="{{url('home./css/review-your-order-page.css')}}">
-    <link rel="stylesheet" href="{{url('home./css/faq-page.css')}}" /> -->
 
-
-    <link href="{{ URL::asset('home/css/style.css') }}"  rel="stylesheet">
+   <link href="{{ URL::asset('home/css/style.css') }}"  rel="stylesheet">
    <link href="{{ URL::asset('home/css/about_sabiha_page.css') }}"  rel="stylesheet">
    <link href="{{ URL::asset('home/css/terms-and-condition-page.css') }}"  rel="stylesheet">
    <link href="{{ URL::asset('home/css/checkout-page.css') }}"  rel="stylesheet">
